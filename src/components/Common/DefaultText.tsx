@@ -7,10 +7,12 @@ interface DefaultTextProps extends TextProps {
 export function Text({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
+      fontFamily="sans-serif"
       fontSize="18px"
       color="#c9c9c9"
       cursor="pointer"
       transition="all 300ms ease"
+      fontWeight=""
       
       _hover={{
         color: "#fefbfb",
