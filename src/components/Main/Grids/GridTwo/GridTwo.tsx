@@ -1,12 +1,13 @@
 import { Box } from "@chakra-ui/react";
-import { PhraseSeven, PhraseSix } from "../../phraseVariation";
+import { Local, PhraseSix, PhraseFive } from "../../Variation";
 
 export function GridTwo() {
   return (
     <>
       <Box margin="72px 4px" padding="16px 0">
+        <PhraseFive />
         <PhraseSix />
-        <PhraseSeven />
+        <Local />
       </Box>
     </>
   );

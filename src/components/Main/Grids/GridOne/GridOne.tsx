@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { PhraseFour, PhraseOne, PhraseThree, PhraseTwo } from "../../phraseVariation";
+import { PhraseFour, PhraseOne, PhraseThree, PhraseTwo } from "../../Variation";
 
 export function GridOne() {
   return (

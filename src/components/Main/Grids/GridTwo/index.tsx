@@ -1,7 +1,5 @@
-import { GridTwo } from "./GridTwo"
+import { GridTwo } from "./GridTwo";
 
 export function Grids() {
-    return (
-        <GridTwo />
-    );
+  return <GridTwo />;
 }
