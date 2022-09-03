@@ -30,7 +30,7 @@ const NavBarItems = () => {
             <NavigationOption link={"/services"}>
                 <Text text={"Serviços"}></Text>
             </NavigationOption>
-            <NavigationOption link={"/acquirements"}>
+            <NavigationOption link={"/skills"}>
                 <Text text={"Conhecimentos"}></Text>
             </NavigationOption>
         </>
