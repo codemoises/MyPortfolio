@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+
 export default class MyDocument extends Document {
   render() {
     return (
@@ -18,6 +19,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap"
           />
+          <link rel="shortcut icon" href="/assets/icon/favicon.ico" type="image/x-icon" />
         </Head>
         <body>
           <Main />

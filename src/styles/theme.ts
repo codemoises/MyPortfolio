@@ -1,4 +1,4 @@
-import { extendTheme } from "@chakra-ui/react";
+import { color, extendTheme } from "@chakra-ui/react";
 
 export const theme = extendTheme ({
     colors: {
@@ -17,7 +17,8 @@ export const theme = extendTheme ({
     styles: {
         global: {
             body: {
-                bg: "#06040c"
+                bg: "#06040c",
+                color:"white"
             }
         }
     }
