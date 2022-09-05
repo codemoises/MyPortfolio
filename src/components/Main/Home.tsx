@@ -1,4 +1,5 @@
 import { Box, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
+import { SocialIcons } from "../Common/SocialIcons";
 import { GridOne } from "./Grids/GridOne/GridOne";
 import { GridTwo } from "./Grids/GridTwo/GridTwo";
 
@@ -12,10 +13,12 @@ export function Home() {
           margin="0 auto"
           padding="96px 16px"
           flexDirection="row"
-          alignItems="center"
+          alignItems="flex-end"
+          flexWrap="wrap"
         >
           <GridOne />
           <GridTwo />
+          <SocialIcons />
         </Flex>
       </Box>
 
