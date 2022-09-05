@@ -11,17 +11,28 @@ export function Menu() {
       height="94px"
       position="fixed"
     >
-      <Box margin="0 auto" maxWidth="1200px" padding="10px 0">
-        <Flex
-          padding="0 10px"
-          justifyContent="space-between"
-          alignItems="center"
+      <Box
+        margin="0 auto"
+        maxWidth="1200px"
+        padding="10px 10px"
+        display="flex"
+        justifyContent={[
+          "center",
+          "center",
+          "center",
+          "space-between",
+          "space-between",
+        ]}
+        alignItems="center"
+      >
+        <Logo />
+        <Box
+          width="445px"
+          display={["none", "none", "none", "flex", "flex"]}
+          justifyContent="space-around"
         >
-          <Logo />
-          <Flex width="445px" justifyContent="space-around">
-            <NavBarItems />
-          </Flex>
-        </Flex>
+          <NavBarItems />
+        </Box>
       </Box>
     </Box>
   );
