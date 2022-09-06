@@ -4,7 +4,18 @@ import { Local, PhraseSix, PhraseFive } from "../../Variation";
 export function GridTwo() {
   return (
     <>
-      <Box margin="72px 4px" padding="16px 0">
+      <Box
+      width= "calc(100% - 8px)"
+        margin={[
+          "50px 22px",
+          "50px 22px",
+          "50px 22px",
+          "50px 22px",
+          "50px 22px",
+          "72px 4px",
+        ]}
+        padding="16px 0"
+      >
         <PhraseFive />
         <PhraseSix />
         <Local />

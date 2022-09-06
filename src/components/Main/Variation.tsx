@@ -5,11 +5,11 @@ export function PhraseOne() {
   return (
     <Text
       color="#c9c9c9"
-      fontSize="20px"
+      fontSize={["14px", "15px", "16px", "18px", "19px", "20px"]}
       letterSpacing="1px"
       transition="all 0.5s ease"
       textTransform="uppercase"
-      width="155px"
+      width={["auto", "auto", "auto", "155px", "155px", "155px"]}
       _hover={{ transform: "translate(10px, 0)" }}
     >
       Olá, eu sou o
@@ -20,9 +20,9 @@ export function PhraseOne() {
 export function PhraseTwo() {
   return (
     <Text
-      width="813.328px"
+      width={["auto", "auto", "512px", "620px", "813.328px"]}
       color="#ffffff"
-      fontSize="100px"
+      fontSize={["46px", "56px", "66px", "76px", "86px", "100px"]}
       lineHeight="120%"
       paddingLeft="50px"
     >
@@ -35,7 +35,7 @@ export function PhraseThree() {
   return (
     <Text
       color="#c9c9c9"
-      fontSize="20px"
+      fontSize={["14px", "15px", "16px", "18px", "19px", "20px"]}
       letterSpacing="1px"
       transition="all 0.5s ease"
       textTransform="uppercase"
@@ -52,7 +52,7 @@ export function PhraseFour() {
   return (
     <Text
       color="#c9c9c9"
-      fontSize="20px"
+      fontSize={["14px", "15px", "16px", "18px", "19px", "20px"]}
       letterSpacing="1px"
       transition="all 0.5s ease"
       textTransform="uppercase"
@@ -69,7 +69,7 @@ export function PhraseFive() {
   return (
     <Text
       color="#c9c9c9"
-      fontSize="20px"
+      fontSize={["14px", "15px", "16px", "18px", "19px", "20px"]}
       letterSpacing="1px"
       transition="all 0.5s ease"
       textTransform="uppercase"
@@ -87,9 +87,16 @@ export function PhraseSix() {
     <Text
       fontFamily="sans-serif"
       color="#ffffff"
-      fontSize="18px"
+      fontSize={["12px", "14px", "15px", "16px", "17px", "18px"]}
       letterSpacing="1px"
-      padding="5px 0 0 50px"
+      padding={[
+        "12px 0 0 20px",
+        "12px 0 0 25px",
+        "12px 0 0 50px",
+        "12px 0 0 50px",
+        "12px 0 0 50px",
+        "5px 0 0 50px",
+      ]}
     >
       Desenvolvedor Front-End e <br />
       estudante de Análise e Desenvolvimendo de Sistemas.
@@ -99,7 +106,10 @@ export function PhraseSix() {
 
 export function Local() {
   return (
-    <Box paddingTop="10px" margin="0 8px 0 8px">
+    <Box
+      paddingTop={["20px", "20px", "20px", "20px", "20px", "10px"]}
+      margin="0 8px 0 8px"
+    >
       <Flex alignItems="center">
         <IconCheckIn />
         <Text

@@ -19,7 +19,7 @@ export function Menu() {
           "center",
           "center",
           "center",
-          "space-between",
+          "center",
           "space-between",
         ]}
         alignItems="center"
@@ -27,7 +27,7 @@ export function Menu() {
         <Logo />
         <Box
           width="445px"
-          display={["none", "none", "none", "flex", "flex"]}
+          display={["none", "none", "none", "none", "flex"]}
           justifyContent="space-around"
         >
           <NavBarItems />

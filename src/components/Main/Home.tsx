@@ -21,7 +21,7 @@ export function Home() {
           ]}
           flexDirection={["column", "column", "column", "column", "column", "row"]}
           alignItems={[
-            "flex-start",
+            "center",
             "flex-start",
             "flex-start",
             "flex-start",
