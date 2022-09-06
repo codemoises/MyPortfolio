@@ -8,11 +8,10 @@ export function Menu() {
     <Box
       width="100%"
       bgGradient={["linear(180deg, #050607 0%, #05060700 100%)"]}
-      height="94px"
       position="fixed"
     >
       <Box
-        margin="0 auto"
+        margin="10px auto"
         maxWidth="1200px"
         padding="10px 10px"
         display="flex"
@@ -47,8 +46,8 @@ const NavBarItems = () => {
       <NavigationOption link={"/about"}>
         <Text text={"Sobre"}></Text>
       </NavigationOption>
-      <NavigationOption link={"/services"}>
-        <Text text={"Serviços"}></Text>
+      <NavigationOption link={"/projects"}>
+        <Text text={"Projetos"}></Text>
       </NavigationOption>
       <NavigationOption link={"/skills"}>
         <Text text={"Conhecimentos"}></Text>

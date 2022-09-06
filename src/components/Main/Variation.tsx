@@ -24,7 +24,7 @@ export function PhraseTwo() {
       color="#ffffff"
       fontSize="100px"
       lineHeight="120%"
-      paddingLeft="25px"
+      paddingLeft="50px"
     >
       Moises Cruz
     </Text>

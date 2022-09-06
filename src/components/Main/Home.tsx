@@ -9,22 +9,24 @@ export function Home() {
       <Box>
         <Flex
           maxWidth="1440px"
-          height={["auto", "auto", "auto", "auto", "100vh"]}
+          height={["auto", "auto", "auto", "auto", "auto", "100vh"]}
           margin="0 auto"
           padding={[
             "132px 8px 32px 8px",
             "132px 8px 32px 8px",
             "132px 8px 32px 8px",
             "132px 8px 32px 8px",
-            "96px 16px",
+            "132px 8px 32px 8px",
+            "96px 16px"
           ]}
-          flexDirection={["column", "column", "column", "column", "row"]}
+          flexDirection={["column", "column", "column", "column", "column", "row"]}
           alignItems={[
             "flex-start",
             "flex-start",
             "flex-start",
             "flex-start",
-            "flex-end",
+            "flex-start",
+            "flex-end"
           ]}
           flexWrap="wrap"
         >
