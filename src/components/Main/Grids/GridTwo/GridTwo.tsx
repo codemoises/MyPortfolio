@@ -5,7 +5,7 @@ export function GridTwo() {
   return (
     <>
       <Box
-      width= "calc(100% - 8px)"
+      width= ""
         margin={[
           "50px 22px",
           "50px 22px",

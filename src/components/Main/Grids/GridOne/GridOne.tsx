@@ -5,7 +5,7 @@ export function GridOne() {
   return (
     <>
       <Box
-        width= "calc(100% - 8px)"
+        width= ""
         margin={[
           "4px 4px 4px 22px",
           "4px 4px 4px 22px",

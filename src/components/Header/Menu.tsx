@@ -40,7 +40,7 @@ export function Menu() {
 const NavBarItems = () => {
   return (
     <>
-      <NavigationOption link={"/home"}>
+      <NavigationOption link={"/Main"}>
         <Text text={"Início"}></Text>
       </NavigationOption>
       <NavigationOption link={"/about"}>

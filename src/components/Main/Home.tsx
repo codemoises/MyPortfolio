@@ -1,5 +1,4 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
-import { SocialIcons } from "../Common/SocialIcons";
 import { GridOne } from "./Grids/GridOne/GridOne";
 import { GridTwo } from "./Grids/GridTwo/GridTwo";
 
@@ -17,7 +16,7 @@ export function Home() {
             "132px 8px 32px 8px",
             "132px 8px 32px 8px",
             "132px 8px 32px 8px",
-            "96px 16px"
+            "157px 16px 96px"
           ]}
           flexDirection={["column", "column", "column", "column", "column", "row"]}
           alignItems={[
@@ -26,13 +25,12 @@ export function Home() {
             "flex-start",
             "flex-start",
             "flex-start",
-            "flex-end"
+            "center"
           ]}
           flexWrap="wrap"
         >
           <GridOne />
           <GridTwo />
-          <SocialIcons />
         </Flex>
       </Box>
 
