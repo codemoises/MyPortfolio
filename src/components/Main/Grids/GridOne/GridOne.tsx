@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { PhraseFour, PhraseOne, PhraseThree, PhraseTwo } from "../../Variation";
+import { TextContent, TextContentTwo } from "../../../Common/DefaultText";
 
 export function GridOne() {
   return (
@@ -16,10 +16,10 @@ export function GridOne() {
         ]}
         padding="16px 0"
       >
-        <PhraseOne />
-        <PhraseTwo />
-        <PhraseThree />
-        <PhraseFour />
+        <TextContent text="Olá, eu sou o"></TextContent>
+        <TextContentTwo text="Moises Cruz"></TextContentTwo>
+        <TextContent padding="25px 0 0 25px" text="Front-End"></TextContent>
+        <TextContent padding="25px 0 0 0" text="developer"></TextContent>
       </Box>
     </>
   );

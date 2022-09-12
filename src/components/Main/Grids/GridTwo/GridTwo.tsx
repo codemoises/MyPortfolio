@@ -1,11 +1,11 @@
 import { Box } from "@chakra-ui/react";
-import { Local, PhraseSix, PhraseFive } from "../../Variation";
+import { TextContent, TextContentThree } from "../../../Common/DefaultText";
+import { Local } from "../../Variation";
 
 export function GridTwo() {
   return (
     <>
       <Box
-      width= ""
         margin={[
           "50px 22px",
           "50px 22px",
@@ -16,8 +16,9 @@ export function GridTwo() {
         ]}
         padding="16px 0"
       >
-        <PhraseFive />
-        <PhraseSix />
+        <TextContent width="179px" text="Expecialidades"></TextContent>
+        <TextContentThree text={"Desenvolvedor Front-End"}></TextContentThree>
+        <TextContentThree text={"e estudante de Análise e Desenvolvimento de Sistemas."}></TextContentThree>
         <Local />
       </Box>
     </>
