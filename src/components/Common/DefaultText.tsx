@@ -25,3 +25,17 @@ export function Text({ text, ...rest }: DefaultTextProps) {
     </ChakraText>
   );
 }
+
+export function TextContent({text, ...rest}: DefaultTextProps) {
+  return (
+    <ChakraText color="#c9c9c9"
+    fontSize={["14px", "15px", "16px", "18px", "19px", "20px"]}
+    letterSpacing="1px"
+    transition="all 0.5s ease"
+    textTransform="uppercase"
+    width={["auto", "auto", "auto", "155px", "155px", "155px"]}
+    _hover={{ transform: "translate(10px, 0)" }}>
+      {text}
+    </ChakraText>
+  );
+}
