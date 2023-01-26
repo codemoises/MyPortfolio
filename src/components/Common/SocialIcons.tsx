@@ -13,7 +13,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="../assets/main/Icons/socialsIcons/gmail-icon.svg"
+              src="../assets/Image/gmail-icon.svg"
               height="20px"
               alt="Ícone do Email"
             />
@@ -26,7 +26,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="../assets/main/Icons/socialsIcons/insta-icon.svg"
+              src="../assets/Image/insta-icon.svg"
               height="20px"
               alt="Ícone do instagram"
             />
@@ -39,7 +39,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="../assets/main/Icons/socialsIcons/linkedin-icon.svg"
+              src="../assets/Image/linkedin-icon.svg"
               height="20px"
               alt="Ícone do instagram"
             />
@@ -52,7 +52,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="../assets/main/Icons/socialsIcons/github-icon.svg"
+              src="../assets/Image/github-icon.svg"
               height="20px"
               alt="Ícone do instagram"
             />
