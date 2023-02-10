@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 import { About } from "../components/About";
-import { Main } from "../components/Main";
+import { Home } from "../components/Main/Home";
 
 
 
@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <>
       <Header />
-      <Main />
+      <Home />
       <About />
     </>
   )
