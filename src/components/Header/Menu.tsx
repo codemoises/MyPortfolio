@@ -40,16 +40,16 @@ export function Menu() {
 const NavBarItems = () => {
   return (
     <>
-      <NavigationOption link={"#main"}>
+      <NavigationOption link={"Main"}>
         <Text text={"Início"}></Text>
       </NavigationOption>
-      <NavigationOption link={"#about"}>
+      <NavigationOption link={"About"}>
         <Text text={"Sobre"}></Text>
       </NavigationOption>
-      <NavigationOption link={"#projects"}>
+      <NavigationOption link={"Projects"}>
         <Text text={"Projetos"}></Text>
       </NavigationOption>
-      <NavigationOption link={"#skills"}>
+      <NavigationOption link={"Skills"}>
         <Text text={"Conhecimentos"}></Text>
       </NavigationOption>
     </>
