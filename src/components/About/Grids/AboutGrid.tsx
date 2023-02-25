@@ -5,6 +5,7 @@ import { AboutText } from "./AboutText";
 export function AboutGrid() {
   return (
     <Box
+      id="about"
       width="calc(41.66667% - 8px)"
       margin="4px"
       padding="16px 24px 0 0"
