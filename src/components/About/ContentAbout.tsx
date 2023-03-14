@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import { Container } from "../Common/Container"
 import { AboutGrid } from "./Grids/AboutGrid";
 import ImagesGrid from "./Grids/ImagesGrid";
@@ -6,9 +6,10 @@ import ImagesGrid from "./Grids/ImagesGrid";
 export function ContentAbout() {
   return (
     <>
-      <Container display={"flex"} alignItems={"center"}>
-        <Flex alignItems="center" justifyContent="space-between" padding="0 20px">
+      <Container display={""} alignItems={""}>
+        <Flex alignItems="center" justifyContent="" padding="0 20px">
           <AboutGrid />
+            <Box width="calc(8.33333% - 8px)" margin="4px" padding="16px 0" float="left" />  
           <ImagesGrid />
         </Flex>
       </Container>
