@@ -9,6 +9,7 @@ export function Menu() {
       width="100%"
       bgGradient={["linear(180deg, #050607 0%, #05060700 100%)"]}
       position="fixed"
+      zIndex="1000"
     >
       <Box
         margin="10px auto"

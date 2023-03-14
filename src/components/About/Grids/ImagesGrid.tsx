@@ -14,7 +14,7 @@ export default function ImagesGrid() {
       float="left"
       width="470px"
     >
-    <Box position="relative" overflow="hidden" transform="translate(0px, 0px)" opacity="1">
+    <Box position="relative" transform="translate(0px, 0px)" opacity="1">
         <Box position="absolute" top="0" left="0" width="100%" height="35px" zIndex="200" background="linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%)" transform="translate(0px, 0px)" opacity="1" />
           <Image
             width="100%"
