@@ -6,12 +6,12 @@ export function AboutGrid() {
   return (
     <Box
       id="about"
-      width="calc(41.66667% - 8px)"
+      width={["auto", "auto", "auto", "auto", "calc(41.66667% - 8px)"]}
       margin="4px"
       padding="16px 24px 0 0"
       float="left"
     >
-      <TextContent text="sobre mim"></TextContent>
+      <TextContent text="sobre mim" />
 
       <TextContent
         width="auto"
@@ -22,9 +22,8 @@ export function AboutGrid() {
         textTransform="-moz-initial"
         fontSize={["46px", "46px", "46px", "46px", "46px", "52px"]}
         text="Moises Cruz Braga"
-        _hover={{ transform: 'none'}}
-      >
-      </TextContent>
+        _hover={{ transform: "none" }}
+      />
       <AboutText />
     </Box>
   );

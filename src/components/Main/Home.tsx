@@ -24,7 +24,7 @@ export function Home() {
           "flex-start",
           "center",
         ]}
-        flexWrap="wrap"
+        justifyContent={["start", "start", "start", "start", "start", "center"]}
       >
         <GridOne />
         <GridTwo />
