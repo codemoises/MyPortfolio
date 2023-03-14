@@ -1,5 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import { TextContent } from "../../Common/DefaultText";
+import { SocialIcons } from "../../Common/SocialIcons";
 import AboutList from "./AboutList";
 import { AboutText } from "./AboutText";
 
@@ -27,6 +28,7 @@ export function AboutGrid() {
       />
       <AboutText />
       <AboutList />
+      <SocialIcons />
     </Box>
   );
 }

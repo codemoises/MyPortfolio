@@ -46,11 +46,11 @@ const NavBarItems = () => {
       <NavigationOption link={"#about"}>
         <Text text={"Sobre"}></Text>
       </NavigationOption>
-      <NavigationOption link={"#projects"}>
-        <Text text={"Projetos"}></Text>
-      </NavigationOption>
       <NavigationOption link={"#skills"}>
         <Text text={"Conhecimentos"}></Text>
+      </NavigationOption>
+      <NavigationOption link={"#projects"}>
+        <Text text={"Projetos"}></Text>
       </NavigationOption>
     </>
   );
