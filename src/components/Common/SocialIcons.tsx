@@ -19,7 +19,7 @@ export function SocialIcons() {
             />
           </Link>
           <Link
-            href="http://www.instagram.com/moisescruz_"
+            href="http://www.instagram.com/moisescrvz"
             target="_blank"
             rel="external"
             transition="all 0.5s ease-in-out"
