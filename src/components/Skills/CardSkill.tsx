@@ -15,7 +15,7 @@ export default function CardSkill({ img, alt, title, description }: CardProps) {
       marginTop={["0", "0", "24px"]}
       padding={["0", "0", "8px 0 0 25px"]}
       alignItems="center"
-      justifyContent={["space-evenly", "start"]}
+      justifyContent={["space-between", "space-evenly", "start", "start"]}
     >
       <Box width="100px">
         <Image width="100%" src={img} alt={alt} />
