@@ -20,7 +20,11 @@ export default function CardSkill({ img, alt, title, description }: CardProps) {
       <Box width="100px">
         <Image width="100%" src={img} alt={alt} />
       </Box>
-      <Flex flexDirection="column" width={["200px", "400px", "auto", "auto", "auto"]} alignItems={"start"}>
+      <Flex
+        flexDirection="column"
+        width={["200px", "400px", "auto", "auto", "auto"]}
+        alignItems={"start"}
+      >
         <TextContentThree
           padding={["0", "12px 0 0 50px", "12px 0 0 50px"]}
           text={title}
