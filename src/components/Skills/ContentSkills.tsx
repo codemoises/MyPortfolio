@@ -22,6 +22,14 @@ export default function ContentSkills() {
           }
         />
         <CardSkill
+          img={"assets/Image/typescript.svg"}
+          alt={"Logo do TypeScript"}
+          title={"TypeScript"}
+          description={
+            "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
+          }
+        />
+        <CardSkill
           img={"assets/Image/react.svg"}
           alt={"Logo do react"}
           title={"React.js"}

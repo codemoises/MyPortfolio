@@ -11,17 +11,18 @@ interface CardProps {
 export default function CardSkill({ img, alt, title, description }: CardProps) {
   return (
     <Flex
-      flexDirection={["column", "column", "row"]}
+      flexDirection={"row"}
       marginTop={["0", "0", "24px"]}
       padding={["0", "0", "8px 0 0 25px"]}
       alignItems="center"
+      justifyContent={["space-evenly", "start"]}
     >
       <Box width="100px">
         <Image width="100%" src={img} alt={alt} />
       </Box>
-      <Flex flexDirection="column" alignItems={["center", "start"]}>
+      <Flex flexDirection="column" width={["200px", "400px", "auto", "auto", "auto"]} alignItems={"start"}>
         <TextContentThree
-          padding={["10px", "12px 0 0 50px", "12px 0 0 50px"]}
+          padding={["0", "12px 0 0 50px", "12px 0 0 50px"]}
           text={title}
         />
         <TextContentTwo
