@@ -7,9 +7,9 @@ export function ContentAbout() {
   return (
     <>
       <Container display={""} alignItems={""}>
-        <Flex alignItems="center" justifyContent="" padding="0 20px">
+        <Flex alignItems="center" justifyContent="" flexDirection={["column", "column", "column", "column", "row"]} padding="0 20px">
           <AboutGrid />
-            <Box width="calc(8.33333% - 8px)" margin="4px" padding="16px 0" float="left" />  
+            <Box width="calc(8.33333% - 8px)" margin="4px" padding="16px 0" float="left" />
           <ImagesGrid />
         </Flex>
       </Container>

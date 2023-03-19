@@ -22,7 +22,7 @@ export function AboutGrid() {
         color="#ffffff"
         lineHeight="100%"
         textTransform="-moz-initial"
-        fontSize={["46px", "46px", "46px", "46px", "46px", "52px"]}
+        fontSize={["40px", "46px", "46px", "46px", "46px", "52px"]}
         text="Moises Cruz Braga"
         _hover={{ transform: "none" }}
       />

@@ -6,18 +6,18 @@ export function AboutText() {
     <Box marginTop="24px" paddingLeft="40px">
       <TextContent
         fontFamily="Mukta"
-        fontSize="24px"
+        fontSize={["18px", "24px"]}
         color="#7c7d80"
         width="auto"
         textTransform="-moz-initial"
         lineHeight="140%"
-        text="Desenvolvedor Front-End, moro em Ceará, em uma cidade chamada Aquiraz. Estou estudando em uma universidade, mas na maioria do tempo tenho estudado sozinho para aprender novas tecnologias."
+        text="Desenvolvedor Front-End, moro em Ceará, em uma cidade chamada Aquiraz. Estou estudando em uma universidade, mas na maioria do tempo tenho estudado sozinho para apromirar minhas habilidades."
         _hover={{ transform: "none" }}
       ></TextContent>
       <br />
       <TextContent
         fontFamily="Mukta"
-        fontSize="24px"
+        fontSize={["18px", "24px"]}
         color="#7c7d80"
         width="auto"
         textTransform="-moz-initial"

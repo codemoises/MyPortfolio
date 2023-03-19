@@ -48,7 +48,7 @@ export function TextContentTwo({ text, ...rest }: DefaultTextProps) {
     <ChakraText
       width={["auto", "auto", "512px", "620px", "813.328px"]}
       color="#ffffff"
-      fontSize={["46px", "56px", "66px", "76px", "86px", "100px"]}
+      fontSize={["40px", "56px", "66px", "76px", "86px", "100px"]}
       lineHeight="120%"
       paddingLeft="50px"
       {...rest}

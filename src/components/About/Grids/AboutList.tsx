@@ -18,7 +18,7 @@ export default function AboutList() {
             fontFamily="'Mukta', sans-serif"
             lineHeight="130%"
             color="#c9c9c9"
-            fontSize="24px"
+            fontSize={["18px", "20px", "22px", "24px"]}
           >
             Análise e Desenvolvimento de Sistemas na Universidade de Fortaleza
             (UNIFOR).

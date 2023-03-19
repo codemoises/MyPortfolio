@@ -4,7 +4,7 @@ export function SocialIcons() {
   return (
     <>
       <Box margin="44px 16px" padding="8px 8px 8px 35px">
-        <Flex gap="24px">
+        <Flex gap="24px" justifyContent={["center", "start"]}>
           <Link
             href="mailto:moisesbraga223@gmail.com"
             target="_blank"
