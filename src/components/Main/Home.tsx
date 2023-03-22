@@ -5,7 +5,7 @@ import { GridTwo } from "./Grids/GridTwo/GridTwo";
 
 export function Home() {
   return (
-    <Container display="flex" alignItems="center" id={"inicio"}>
+    <Container display="flex" alignItems="center" id={"inicio"} height={"100vh"}>
       <Flex
         height={'auto'}
         flexDirection={[

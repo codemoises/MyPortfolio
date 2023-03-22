@@ -11,12 +11,12 @@ export function Text({ text, ...rest }: DefaultTextProps) {
       fontSize="18px"
       color="#c9c9c9"
       cursor="pointer"
-      transition="all 300ms ease"
+      transition="all 0.5s ease"
       fontWeight=""
       _hover={{
         color: "#fefbfb",
         textUnderlineOffset: "8px",
-        textDecoration: "underline #7343cc",
+        textDecoration: "underline #6E3AFF",
         textDecorationThickness: "2px",
       }}
       {...rest}
