@@ -25,6 +25,7 @@ export function Home() {
           "center",
         ]}
         justifyContent={["start", "start", "start", "start", "start", "center"]}
+        background="transparent"
       >
         <GridOne />
         <GridTwo />
