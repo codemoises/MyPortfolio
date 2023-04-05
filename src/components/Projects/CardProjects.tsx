@@ -1,36 +1,39 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
-import { TextContentThree } from "../Common/DefaultText";
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
 
 interface CardProjectProps {
   src: string;
   alt: string;
+  link: string;
   title: string;
+  description: string;
 }
 
-export default function CardProjects({ src, alt, title }: CardProjectProps) {
+export default function CardProjects({
+  src,
+  alt,
+  title,
+  description,
+  link,
+}: CardProjectProps) {
   return (
-    <Box
-      maxWidth="250px"
-      marginTop={["0", "0", "24px"]}
-      padding={["0", "0", "8px 0 0 25px"]}
-    >
-      <Flex
-        width="100%"
-        backgroundColor="#1A1A1A"
-        flexDirection="column"
-        padding={"16px"}
-        margin={""}
-      >
-        <Box width="25px">
-          <Image width="100%" src={src} alt={alt} />
-        </Box>
-        <TextContentThree
-          color="#c9c9c9"
-          padding={"0"}
-          margin={"0"}
-          text={title}
-        />
-      </Flex>
-    </Box>
+    <Link href={link} target="_blank" rel="external" textDecoration={"none"} _hover={{}}>
+      <Box maxWidth="sm" borderBottom={"1px solid #6E3AFF"}>
+        <Flex width="100%" flexDirection="column" padding={"16px"} margin={""}>
+          <Box width="25px">
+            <Image width="100%" src={src} alt={alt} />
+          </Box>
+          <TextContentTwo
+            width={"auto"}
+            color={"#c9c9c9"}
+            fontSize={["12px", "16px"]}
+            margin={"6px 0"}
+            padding={"6px 0"}
+            text={description}
+          />
+          <TextContentThree padding={"0"} margin={"0"} text={title} />
+        </Flex>
+      </Box>
+    </Link>
   );
 }

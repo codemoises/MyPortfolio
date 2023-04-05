@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/card": "^2.1.6",
+    "@chakra-ui/layout": "^2.1.18",
     "@chakra-ui/react": "^2.3.1",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
