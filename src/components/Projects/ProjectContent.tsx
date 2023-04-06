@@ -10,29 +10,29 @@ export default function ProjectContent() {
         <TextContent text={"Projetos"} />
         <Flex marginTop={["0", "0", "24px"]} justifyContent={"space-around"}>
           <CardProjects
-            src={"/assets/Image/calculator-icon.svg"}
+            src={"/assets/Image/calculadora 1.svg"}
             alt={"Icone de calculadora"}
             title={"Calculadora"}
             description={
-              "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript é um programa que permite realizar cálculos matemáticos básicos diretamente no navegador da web. Ela é construída utilizando a linguagem de marcação HTML para criar a interface da calculadora, o CSS para definir a aparência visual e o JavaScript para processar os cálculos e exibir os resultados."
+              "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript é um programa que permite realizar cálculos matemáticos básicos."
             }
             link={"https://calculadora-theta.vercel.app/"}
           />
           <CardProjects
-            src={"/assets/Image/calculator-icon.svg"}
+            src={"/assets/Image/calculadora 1.svg"}
             alt={"Icone de calculadora"}
             title={"Calculadora"}
             description={
-              "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript é um programa que permite realizar cálculos matemáticos básicos diretamente no navegador da web. Ela é construída utilizando a linguagem de marcação HTML para criar a interface da calculadora, o CSS para definir a aparência visual e o JavaScript para processar os cálculos e exibir os resultados."
+              "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript é um programa que permite realizar cálculos matemáticos básicos."
             }
             link={""}
           />
           <CardProjects
-            src={"/assets/Image/calculator-icon.svg"}
+            src={"/assets/Image/calculadora 1.svg"}
             alt={"Icone de calculadora"}
             title={"Calculadora"}
             description={
-              "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript é um programa que permite realizar cálculos matemáticos básicos diretamente no navegador da web. Ela é construída utilizando a linguagem de marcação HTML para criar a interface da calculadora, o CSS para definir a aparência visual e o JavaScript para processar os cálculos e exibir os resultados."
+              "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript é um programa que permite realizar cálculos matemáticos básicos."
             }
             link={""}
           />
