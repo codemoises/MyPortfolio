@@ -2,3 +2,7 @@ html {
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+
+.hoveredText:hover::after {
+    width: 100%;
+}

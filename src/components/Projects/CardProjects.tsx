@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Image, Link } from "@chakra-ui/react";
-import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
+import { Text, TextContentThree, TextContentTwo } from "../Common/DefaultText";
 
 interface CardProjectProps {
   src: string;
@@ -18,7 +18,7 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Box maxWidth="sm">
-      <Flex width="100%" flexDirection="column" padding={""} margin={""}>
+      <Flex width="100%" maxHeight="398px" flexDirection="column" padding={""} margin={""}>
         <Box width="">
           <Image width="100%" borderTopRadius={"xl"} src={src} alt={alt} />
         </Box>
@@ -35,20 +35,8 @@ export default function CardProjects({
           padding={"6px 0"}
           text={description}
         />
-        <Link href={link} rel="External" target="_blank" padding={"8px 0 0 0"} margin={"8px 0 0 0"} _hover={{ textDecoration: "none" }}>
-          <Button
-            fontWeight={"medium"}
-            bg={"none"}
-            border={"1px solid"}
-            _hover={{ bg: ""}}
-            _active={{
-              bg: "",
-              transform: "scale(0.98)",
-              borderColor: "#bec3c9",
-            }}
-          >
-            Visitar
-          </Button>
+        <Link href={link} rel="External" target="_blank" maxWidth="115px" padding={"16px 0 0 0"} margin={"auto"} _hover={{ textDecoration: "none" }}>
+          <Text text={"Visitar projeto!"} _hover={{}} />
         </Link>
       </Flex>
     </Box>

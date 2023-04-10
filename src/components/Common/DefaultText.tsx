@@ -1,5 +1,4 @@
 import { Text as ChakraText, TextProps } from "@chakra-ui/react";
-
 interface DefaultTextProps extends TextProps {
   text: string;
 }
@@ -7,18 +6,16 @@ interface DefaultTextProps extends TextProps {
 export function Text({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
+      className="hoveredText"
       fontFamily="sans-serif"
       fontSize="18px"
       color="#c9c9c9"
       cursor="pointer"
-      transition="all 0.5s ease"
-      fontWeight=""
+      position="relative"
       _hover={{
         color: "#fefbfb",
-        textUnderlineOffset: "8px",
-        textDecoration: "underline #6E3AFF",
-        textDecorationThickness: "2px",
       }}
+      _after={{ content: "''", background: "linear-gradient(270deg, #6E3AFF 0%, #000 100%)", height: "1.7px", width: "0", position: "absolute", bottom: "-3px", left: "0", transition: "all 0.5s ease-in-out" }}
       {...rest}
     >
       {text}
