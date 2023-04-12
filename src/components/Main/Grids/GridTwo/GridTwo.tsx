@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
-import { TextContent, TextContentThree } from "../../../Common/DefaultText";
-import { Local } from "../../Variation";
+import { TextContentThree } from "../../../Common/DefaultText";
+import ButtonDefault from "../../../Common/ButtonDefault";
+
 
 export function GridTwo() {
   return (
@@ -16,10 +17,9 @@ export function GridTwo() {
         ]}
         padding="16px 0"
       >
-        <TextContent width="179px" text="Expecialidades"></TextContent>
-        <TextContentThree text={"Desenvolvedor Front-End"}></TextContentThree>
-        <TextContentThree text={"e estudante de Análise e Desenvolvimento de Sistemas."}></TextContentThree>
-        <Local />
+        <TextContentThree text={"Estudante de Análise e Desenvolvimento de Sistemas"} />
+        <TextContentThree text={"e paixão por desenvolvimento web."} />
+        <ButtonDefault placeholder={"Mais sobre mim"} />
       </Box>
     </>
   );

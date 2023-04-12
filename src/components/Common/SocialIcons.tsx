@@ -3,7 +3,7 @@ import { Box, Link, Image, Flex } from "@chakra-ui/react";
 export function SocialIcons() {
   return (
     <>
-      <Box margin="44px 16px" padding="8px 8px 8px 35px">
+      <Box margin="16px 0" padding="16px 0 16px 6px">
         <Flex gap="24px" justifyContent={["center", "start"]}>
           <Link
             href="mailto:moisesbraga223@gmail.com"

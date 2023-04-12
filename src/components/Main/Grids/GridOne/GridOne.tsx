@@ -1,5 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import { TextContent, TextContentTwo } from "../../../Common/DefaultText";
+import { SocialIcons } from "../../../Common/SocialIcons";
 
 export function GridOne() {
   return (
@@ -18,8 +19,8 @@ export function GridOne() {
       >
         <TextContent text="Olá, eu sou o"></TextContent>
         <TextContentTwo text="Moises Cruz"></TextContentTwo>
-        <TextContent padding="25px 0 0 25px" text="Front-End"></TextContent>
-        <TextContent padding="25px 0 0 0" text="developer"></TextContent>
+        <TextContent text="Desenvolvedor Front-End de Aquiraz, Ceará" />
+        <SocialIcons />
       </Box>
     </>
   );

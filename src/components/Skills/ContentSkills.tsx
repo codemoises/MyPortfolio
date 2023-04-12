@@ -7,7 +7,7 @@ export default function ContentSkills() {
   return (
     <Container display={""} alignItems={""} id={"skills"} height={"auto"}>
       <Box padding="20px">
-        <TextContent width="fit-content" text={"conhecimentos"} />
+        <TextContent width="fit-content" text={"Conhecimentos"} />
         <Flex flexDirection="column" gap={["65px", "65px", "45px", "20px"]}>
           <CardSkill
             img={"assets/Image/javascript.svg"}

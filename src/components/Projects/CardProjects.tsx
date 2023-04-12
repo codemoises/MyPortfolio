@@ -17,25 +17,25 @@ export default function CardProjects({
   link,
 }: CardProjectProps) {
   return (
-    <Box maxWidth="sm">
-      <Flex width="100%" maxHeight="398px" flexDirection="column" padding={""} margin={""}>
-        <Box width="">
-          <Image width="100%" borderTopRadius={"xl"} src={src} alt={alt} />
+    <Box maxWidth="sm" maxHeight="418px" borderBottom={"1px solid"} borderRadius={"xl"}>
+      <Flex width="100%" flexDirection="column">
+        <Box w={"384px"} h={"230px"}>
+          <Image width="100%" height="100%" borderTopRadius={"xl"} src={src} alt={alt} />
         </Box>
         <TextContentThree
-          margin={"8px 0 0 0"}
-          padding={"8px 0 0 0"}
+          margin={"8px 8px 0 8px"}
+          padding={"8px 8px 0 8px"}
           text={title}
         />
         <TextContentTwo
           width={"auto"}
           color={"#c9c9c9"}
           fontSize={["12px", "16px"]}
-          margin={"6px 0"}
-          padding={"6px 0"}
+          margin={"6px"}
+          padding={"6px"}
           text={description}
         />
-        <Link href={link} rel="External" target="_blank" maxWidth="115px" padding={"16px 0 0 0"} margin={"auto"} _hover={{ textDecoration: "none" }}>
+        <Link href={link} rel="External" target="_blank" maxWidth="158px" padding={"16px"} margin={"auto"} _hover={{ textDecoration: "none" }}>
           <Text text={"Visitar projeto!"} _hover={{}} />
         </Link>
       </Flex>
