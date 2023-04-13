@@ -10,7 +10,6 @@ html {
 .blink {
     padding-left: 4px;
     text-align: center;
-    display: inline-block;
 }
 
 .blink span {

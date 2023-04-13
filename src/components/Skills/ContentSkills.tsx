@@ -10,7 +10,7 @@ export default function ContentSkills() {
         <TextContent width="fit-content" text={"Conhecimentos"} />
         <Flex flexDirection="column" gap={["65px", "65px", "45px", "20px"]}>
           <CardSkill
-            img={"assets/Image/javascript.svg"}
+            img={"/assets/Image/javascript.svg"}
             alt={"Logo do JavaScript"}
             title={"JavaScript"}
             description={

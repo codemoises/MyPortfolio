@@ -4,7 +4,7 @@ export function SocialIcons() {
   return (
     <>
       <Box margin="16px 0" padding="16px 0 16px 6px">
-        <Flex gap="24px" justifyContent={["center", "start"]}>
+        <Flex gap="24px" justifyContent={"start"}>
           <Link
             href="mailto:moisesbraga223@gmail.com"
             target="_blank"
@@ -13,7 +13,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="/assets/iconteste/gmail-icon 1.svg"
+              src="/assets/Image/gmail-icon.svg"
               height="30px"
               alt="Ícone do Email"
             />
@@ -26,7 +26,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="../assets/iconteste/insta-icon 1.svg"
+              src="../assets/Image/insta-icon.svg"
               height="30px"
               alt="Ícone do instagram"
             />
@@ -39,7 +39,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="../assets/iconteste/linkedin-icon 1.svg"
+              src="/assets/Image/linkedin-icon.svg"
               height="30px"
               alt="Ícone do linkedin"
             />
@@ -52,7 +52,7 @@ export function SocialIcons() {
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <Image
-              src="../assets/iconteste/github-icon 1.svg"
+              src="/assets/Image/github-icon.svg"
               height="30px"
               alt="Ícone do instagram"
             />
