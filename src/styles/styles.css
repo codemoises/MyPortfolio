@@ -6,3 +6,22 @@ html {
 .hoveredText:hover::after {
     width: 100%;
 }
+
+.blink {
+    padding-left: 4px;
+    text-align: center;
+    display: inline-block;
+}
+
+.blink span {
+    font-family: cursive;
+    color: #6710f2;
+    animation: blink 1s linear infinite;
+}
+
+
+@keyframes blink {
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
