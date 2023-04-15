@@ -8,7 +8,7 @@ export default function ProjectContent() {
     <Container display={""} alignItems={""} height={"auto"} id={"projects"}>
       <Box marginTop={["0", "0", "24px"]} padding={["0", "0", "8px 0 0 25px"]}>
         <TextContent text={"Projetos"} />
-        <Flex marginTop={["0", "0", "24px"]} padding={["0", "0", "8px 0 0 0"]} rowGap={"60px"} justifyContent={"space-around"} flexWrap={"wrap"}>
+        <Flex marginTop={["16px", "16px", "16px", "16px", "24px"]} padding={["0", "0", "8px 0 0 0"]} rowGap={"60px"} justifyContent={"space-around"} flexWrap={"wrap"}>
           
         </Flex>
       </Box>
