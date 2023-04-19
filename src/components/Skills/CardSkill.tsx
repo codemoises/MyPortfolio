@@ -30,9 +30,11 @@ export default function CardSkill({ img, alt, title, description }: CardProps) {
           text={title}
         />
         <TextContentTwo
-          color="#c9c9c9"
+          color={"#7c7d80"}
           padding={["0px", "12px 0 0 50px", "12px 0 0 50px"]}
           fontSize={["12px", "16px"]}
+          letterSpacing={"0.3px"}
+          lineHeight={"140%"}
           text={description}
         />
       </Flex>

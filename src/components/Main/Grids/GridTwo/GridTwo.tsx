@@ -19,7 +19,7 @@ export function GridTwo() {
       >
         <TextContentThree text={"Estudante de Análise e Desenvolvimento de Sistemas"} />
         <TextContentThree text={"e paixão por desenvolvimento web."} />
-        <ButtonDefault placeholder={"Mais sobre mim"} />
+        <ButtonDefault placeholder={"Mais sobre mim"} href={"#about"} />
       </Box>
     </>
   );
