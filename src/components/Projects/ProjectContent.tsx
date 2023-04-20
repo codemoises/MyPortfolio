@@ -20,7 +20,7 @@ export default function ProjectContent() {
             alt={"Imagem da calculadora"}
             link={"https://calculadora-theta.vercel.app/"}
             title={"Calculadora"}
-            description={"Uma calculadora simples criada com HTML5, CSS3 e JavaScript é um aplicativo web que permite fazer operações matemáticas básicas, como soma, subtração, multiplicação e divisão. Ela possui botões numéricos, um display para mostrar os números e o resultado, além de botões para as operações. O HTML é usado para criar a estrutura, o CSS é usado para o estilo e o JavaScript é usado para fazer as operações e mostrar o resultado. É uma ferramenta útil para cálculos rápidos na web."} linkRepository={"https://github.com/mwises/calculadora"}          />
+            description={"Uma calculadora simples criada com HTML5, CSS3 e JavaScript. É um aplicativo web que permite fazer operações matemáticas básicas, como soma, subtração, multiplicação e divisão. Ela possui botões numéricos, um display para mostrar os números e o resultado, além de botões para as operações. O HTML é usado para criar a estrutura, o CSS é usado para o estilo e o JavaScript é usado para fazer as operações e mostrar o resultado. É uma ferramenta útil para cálculos rápidos na web."} linkRepository={"https://github.com/mwises/calculadora"}          />
         </Flex>
       </Box>
     </Container>

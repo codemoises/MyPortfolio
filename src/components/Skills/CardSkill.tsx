@@ -30,7 +30,7 @@ export default function CardSkill({ img, alt, title, description }: CardProps) {
           text={title}
         />
         <TextContentTwo
-          color={"#7c7d80"}
+          color={"#a2a3a5"}
           padding={["0px", "12px 0 0 50px", "12px 0 0 50px"]}
           fontSize={["12px", "16px"]}
           letterSpacing={"0.3px"}

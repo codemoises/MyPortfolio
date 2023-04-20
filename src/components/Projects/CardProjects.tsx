@@ -30,15 +30,15 @@ export default function CardProjects({
           />
           <TextContentTwo
             width={"auto"}
-            color={"#7c7d80"}
+            color={"#a2a3a5"}
             fontSize={["12px", "18px"]}
             margin={"12px 6px"}
             padding={"12px 6px"}
             lineHeight={"140%"}
             text={description}
           />
-          <Flex margin={"8px"} padding={"8px"} flexDirection={"row"} alignItems={"center"} gap={"15px"}>
-            <ButtonProjects placeholder={"Clique para visitar!"} href={link} />
+          <Flex margin={"8px"} padding={"8px"} flexDirection={"row"} alignItems={"center"} gap={"22px"}>
+            <ButtonProjects placeholder={"Clique para visitar"} href={link} />
             <Link href={linkRepository} color={"#863bff"} isExternal>
               Abrir repositório <ExternalLinkIcon mx='2px' />
             </Link>
