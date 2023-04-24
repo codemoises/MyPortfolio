@@ -23,9 +23,11 @@ export default function CardProjects({
   return (
     <Flex
       width="100%"
-      gap="200px"
-      height="365px"
+      gap={["50px", "100px", "135px", "200px"]}
+      height={["330px", "330px", "370px", "365px"]}
       alignItems="center"
+      
+      justifyContent={["center"]}
       flexDirection="row"
     >
       <Flex w={"xl"} h={"100%"} flexDirection="column" position="relative">
@@ -33,14 +35,14 @@ export default function CardProjects({
           margin={"8px 8px 0 8px"}
           padding={"8px 8px 0 4px"}
           fontFamily={"Electrolize, sans-serif"}
-          fontSize={"30px"}
+          fontSize={["24px", "26px", "28px", "30px"]}
           text={title}
         />
 
         <TextContentTwo
           width={"auto"}
           color={"#a2a3a5"}
-          fontSize={["12px", "18px"]}
+          fontSize={["12px", "14px", "15px", "16px", "18px"]}
           margin={"12px 6px"}
           padding={"12px 6px"}
           lineHeight={"140%"}
@@ -49,9 +51,9 @@ export default function CardProjects({
         <Flex
           margin={"8px"}
           padding={"6px"}
-          flexDirection={"row"}
+          flexDirection={["column", "row"]}
           alignItems={"center"}
-          gap={"22px"}
+          gap={["16px", "22px"]}
           position={"absolute"}
           bottom={"0"}
         >
@@ -61,7 +63,7 @@ export default function CardProjects({
           </Link>
         </Flex>
       </Flex>
-      <Box w={"384px"} h={"300px"}>
+      <Box display={["none", "none", "block", "block"]} w={"384px"} h={"300px"}>
         <Image width="100%" height="100%" src={src} alt={alt} />
       </Box>
     </Flex>

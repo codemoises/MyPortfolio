@@ -3,6 +3,7 @@ import { About } from "../components/About";
 import { Home } from "../components/Main/Home";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Footer from "../components/Footer";
 
 
 
@@ -14,6 +15,7 @@ export default function Index() {
       <About />
       <Skills />
       <Projects />
+      <Footer />
     </>
   )
 }

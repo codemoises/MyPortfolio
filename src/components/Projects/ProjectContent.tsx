@@ -11,13 +11,13 @@ export default function ProjectContent() {
         <Flex
           marginTop={["16px", "16px", "16px", "16px", "24px"]}
           padding={["0", "0", "8px 0 0 25px"]}
-          gap={"150px"}
+          gap={["150px", "100px"]}
           justifyContent={"center"}
           flexWrap={"wrap"}
         >
           <CardProjects
             title={"Calculadora"}
-            description={"Uma calculadora simples criada com HTML5, CSS3 e JavaScript. É um aplicativo web que permite fazer operações matemáticas básicas, como soma, subtração, multiplicação e divisão. Ela possui botões numéricos, um display para mostrar os números e o resultado, além de botões para as operações. O HTML é usado para criar a estrutura, o CSS é usado para o estilo e o JavaScript é usado para fazer as operações e mostrar o resultado. É uma ferramenta útil para cálculos rápidos na web."}
+            description={"Uma calculadora simples criada com HTML5, CSS3 e JavaScript. É um aplicativo web que permite fazer operações matemáticas básicas, como soma, subtração, multiplicação e divisão. O HTML é usado para criar a estrutura, o CSS é usado para o estilo e o JavaScript é usado para fazer as operações e mostrar o resultado. É uma ferramenta útil para cálculos rápidos na web."}
             link={"https://calculadora-theta.vercel.app/"}
             linkRepository={"https://github.com/mwises/calculadora"}
             src={"/assets/Image/calculadora.svg"}
