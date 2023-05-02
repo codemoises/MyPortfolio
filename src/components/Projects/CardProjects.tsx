@@ -1,12 +1,9 @@
-import { Box, Button, Flex, Image, Link } from "@chakra-ui/react";
-import { Text, TextContentThree, TextContentTwo } from "../Common/DefaultText";
-import { ButtonProjects } from "../Common/ButtonDefault";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
 
 interface CardProjectProps {
   title: string;
   link: string;
-  linkRepository: string;
   description: string;
   alt: string;
   src: string;
@@ -14,9 +11,8 @@ interface CardProjectProps {
 
 export default function CardProjects({
   title,
-  description,
   link,
-  linkRepository,
+  description,
   src,
   alt,
 }: CardProjectProps) {
@@ -43,24 +39,14 @@ export default function CardProjects({
           width={"auto"}
           color={"#a2a3a5"}
           fontSize={["12px", "14px", "15px", "16px", "18px"]}
-          margin={"12px 6px"}
-          padding={"12px 6px"}
+          margin={"12px 6px 0 6px"}
+          padding={"12px 6px 0 6px"}
           lineHeight={"140%"}
           text={description}
         />
-        <Flex
-          margin={"8px"}
-          padding={"6px"}
-          flexDirection={["column", "row"]}
-          alignItems={"center"}
-          gap={["16px", "22px"]}
-          position={"absolute"}
-          bottom={"0"}
-        >
-          <ButtonProjects placeholder={"Clique para visitar"} href={link} />
-          <Link href={linkRepository} color={"#863bff"} isExternal>
-            Abrir repositório <ExternalLinkIcon mx="2px" />
-          </Link>
+        <Flex margin={"12px 6px"}
+            padding={"12px 6px"} gap={"14px"} alignItems={"center"}>
+          <Link href={link} _hover={{}}>Visualizar projeto</Link>
         </Flex>
       </Flex>
       <Box display={["none", "none", "block", "block"]} w={"384px"} h={"300px"}>

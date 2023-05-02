@@ -17,17 +17,15 @@ export default function ProjectContent() {
         >
           <CardProjects
             title={"Calculadora"}
-            description={"Uma calculadora simples criada com HTML5, CSS3 e JavaScript. É um aplicativo web que permite fazer operações matemáticas básicas, como soma, subtração, multiplicação e divisão. O HTML é usado para criar a estrutura, o CSS é usado para o estilo e o JavaScript é usado para fazer as operações e mostrar o resultado. É uma ferramenta útil para cálculos rápidos na web."}
+            description={"Calculadora simples criada com HTML5, CSS3 e JavaScript."}
             link={"https://calculadora-theta.vercel.app/"}
-            linkRepository={"https://github.com/mwises/calculadora"}
             src={"/assets/Image/calculadora.svg"}
             alt={"Imagem da calculadora"}          />
 
           <CardProjects
             title={"Landing Page"}
-            description={"Uma landing page criada usando HTML5 e CSS3 é uma página web projetada para incentivar os visitantes a tomar uma ação específica, como preencher um formulário ou comprar um produto. HTML5 é a linguagem de marcação usada para estruturar o conteúdo da página, enquanto o CSS3 é usado para definir o estilo visual da página."}
+            description={"Landing page para implementar habilidades em HTML5 e CSS3"}
             link={"https://landing-page-gamma-five.vercel.app/"}
-            linkRepository={"https://github.com/mwises/landingPage"}
             src={"/assets/Image/landingPage.svg"}
             alt={"Imagem da Landing Page"}          />
         </Flex>

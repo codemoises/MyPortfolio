@@ -7,7 +7,8 @@ export function Text({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
       className="hoveredText"
-      fontFamily="sans-serif"
+      fontFamily= "Saira, sans-serif"
+      fontWeight="400"
       fontSize="18px"
       color="#c9c9c9"
       cursor="pointer"
@@ -26,9 +27,10 @@ export function Text({ text, ...rest }: DefaultTextProps) {
 export function TextContent({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
-      color="#c9c9c9"
+      color={"#c9c9c9"}
       fontSize={["14px", "15px", "16px", "18px", "19px", "20px"]}
-      letterSpacing="1px"
+      fontWeight={"300"}
+      letterSpacing={"1px"}
       paddingLeft={["3px", "4px", "6px"]}
       width={["auto"]}
       {...rest}
@@ -44,8 +46,9 @@ export function TextContentTwo({ text, ...rest }: DefaultTextProps) {
       width={["auto", "auto", "512px", "620px", "813.328px"]}
       color="#ffffff"
       fontSize={["40px", "56px", "66px", "76px", "76px", "80px"]}
+      fontWeight={"300"}
       margin={"8px 0"}
-      lineHeight="120%"
+      lineHeight={"120%"}
       {...rest}
     >
       {text}
