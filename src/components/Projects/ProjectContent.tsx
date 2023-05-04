@@ -16,13 +16,15 @@ export default function ProjectContent() {
           flexWrap={"wrap"}
         >
           <CardProjects
+            number={"01"}
             title={"Calculadora"}
             description={"Calculadora simples criada com HTML5, CSS3 e JavaScript."}
             link={"https://calculadora-theta.vercel.app/"}
             src={"/assets/Image/calculadora.svg"}
-            alt={"Imagem da calculadora"}          />
+          alt={"Imagem da calculadora"}          />
 
           <CardProjects
+            number={"02"}
             title={"Landing Page"}
             description={"Landing page para implementar habilidades em HTML5 e CSS3"}
             link={"https://landing-page-gamma-five.vercel.app/"}
