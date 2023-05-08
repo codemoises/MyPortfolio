@@ -1,5 +1,6 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
+import ImageContent from "./ImageContent";
 
 interface CardProjectProps {
   number: string;
@@ -50,12 +51,10 @@ export default function CardProjects({
         />
         <Flex margin={"12px 6px"}
             padding={"12px 6px"} gap={"14px"} alignItems={"center"}>
-          <Link className="hoveredText" href={link} _hover={{}} position={"relative"} _after={{ content: "''", background: "linear-gradient(270deg, #6E3AFF 0%, #000 100%)", height: "1.7px", width: "0", position: "absolute", bottom: "-3px", left: "0", transition: "all 0.5s ease-in-out" }}>Visualizar projeto</Link>
+          <Link className="hoveredText" href={link} target="_blank" rel="external" _hover={{}} position={"relative"} _after={{ content: "''", background: "linear-gradient(270deg, #6E3AFF 0%, #000 100%)", height: "1.7px", width: "0", position: "absolute", bottom: "-3px", left: "0", transition: "all 0.5s ease-in-out" }}>Visualizar projeto</Link>
         </Flex>
       </Flex>
-      <Box display={["none", "none", "block", "block"]} w={"384px"} h={"300px"}>
-        <Image width="100%" height="100%" src={src} alt={alt} />
-      </Box>
+      <ImageContent src={src} alt={alt} />
     </Flex>
   );
 }
