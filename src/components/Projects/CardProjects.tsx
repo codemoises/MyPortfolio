@@ -1,9 +1,8 @@
-import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { Flex, Link } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
 import ImageContent from "./ImageContent";
 
 interface CardProjectProps {
-  number: string;
   title: string;
   link: string;
   description: string;
@@ -12,7 +11,6 @@ interface CardProjectProps {
 }
 
 export default function CardProjects({
-  number,
   title,
   link,
   description,
@@ -27,10 +25,11 @@ export default function CardProjects({
       
       justifyContent={["center"]}
       flexDirection="row"
-    >
-      <Flex w={"sm"} h={"100%"} flexDirection={"column"} position={"relative"} justifyContent={"center"}>
-        <TextContentTwo width={"auto"} margin={"8px 8px 0 4px"}
-          padding={"8px 8px 0 2px"} text={number} />
+      >
+      <ImageContent src={src} alt={alt} />
+      <Flex w={"sm"} h={"100%"} 
+          margin={"8px 8px 0 8px"}
+          padding={"8px 8px 0 4px"} flexDirection={"column"} position={"relative"} justifyContent={"center"}>
         <TextContentThree
           margin={"8px 8px 0 8px"}
           padding={"8px 8px 0 4px"}
@@ -54,7 +53,6 @@ export default function CardProjects({
           <Link className="hoveredText" href={link} target="_blank" rel="external" _hover={{}} position={"relative"} _after={{ content: "''", background: "linear-gradient(270deg, #6E3AFF 0%, #000 100%)", height: "1.7px", width: "0", position: "absolute", bottom: "-3px", left: "0", transition: "all 0.5s ease-in-out" }}>Visualizar projeto</Link>
         </Flex>
       </Flex>
-      <ImageContent src={src} alt={alt} />
     </Flex>
   );
 }
