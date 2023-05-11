@@ -5,14 +5,14 @@ import CardProjects from "./CardProjects";
 
 export default function ProjectContent() {
   return (
-    <Container display={""} alignItems={""} height={"auto"} id={"projects"}>
+    <Container display={""} alignItems={""} id={"projects"}>
       <Box marginTop={["0", "0", "24px"]} padding={["20px"]}>
         <TextContent text={"Projetos"} />
         <Flex
           marginTop={["24px", "24px", "24px", "24px", "24px"]}
           padding={["8px 0 0 0", "8px 0 0 0", "8px 0 0 25px"]}
           gap={["55px", "55px", "150px", "100px"]}
-          justifyContent={"start"}
+          justifyContent={"center"}
           flexWrap={"wrap"}
         >
           <CardProjects

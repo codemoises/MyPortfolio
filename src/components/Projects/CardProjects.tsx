@@ -23,7 +23,7 @@ export default function CardProjects({
       height={["auto", "auto", "370px", "365px"]}
       alignItems="center"
       
-      justifyContent={["center"]}
+      justifyContent={["flex-start"]}
       flexDirection={["column", "row", "row", "row", "row"]}
       >
       <ImageContent src={src} alt={alt} />
