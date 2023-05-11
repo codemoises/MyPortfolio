@@ -28,6 +28,7 @@ export default function ProjectContent() {
             link={"https://landing-page-gamma-five.vercel.app/"}
             src={"/assets/Image/landingPage.svg"}
             alt={"Imagem da Landing Page"}          />
+          <CardProjects title={"Spotify Clone"} link={"https://spotify-clone-dev-web.vercel.app/"} description={"Clone do Spotify. Feito em colaboração com alguns amigos."} alt={"Imagem da logo do Spotify"} src={"/assets/Image/spotifyClone.svg"} />
         </Flex>
       </Box>
     </Container>
