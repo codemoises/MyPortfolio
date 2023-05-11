@@ -12,7 +12,7 @@ export default function CardSkill({ img, alt, title, description }: CardProps) {
   return (
     <Flex
       flexDirection={"row"}
-      marginTop={["16px", "16px", "24px"]}
+      marginTop={["24px"]}
       padding={["8px 0 0 0", "8px 0 0 0", "8px 0 0 25px"]}
       alignItems="center"
       justifyContent={["space-between", "space-evenly", "start", "start"]}

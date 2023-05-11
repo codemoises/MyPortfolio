@@ -20,16 +20,16 @@ export default function CardProjects({
   return (
     <Flex
       width="100%"
-      height={["330px", "330px", "370px", "365px"]}
+      height={["auto", "auto", "370px", "365px"]}
       alignItems="center"
       
       justifyContent={["center"]}
-      flexDirection="row"
+      flexDirection={["column", "row", "row", "row", "row"]}
       >
       <ImageContent src={src} alt={alt} />
       <Flex w={"sm"} h={"100%"} 
-          margin={"8px 8px 0 8px"}
-          padding={"8px 8px 0 4px"} flexDirection={"column"} position={"relative"} justifyContent={"center"}>
+          margin={["0", "0", "0", "8px 8px 0 0px", "8px 8px 0 0px"]}
+          padding={"8px 8px 0 0px"} flexDirection={"column"} position={"relative"} justifyContent={"center"}>
         <TextContentThree
           margin={"8px 8px 0 8px"}
           padding={"8px 8px 0 4px"}
