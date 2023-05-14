@@ -28,7 +28,7 @@ export function TextContent({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
       color={"#c9c9c9"}
-      fontSize={["14px", "15px", "16px", "18px", "19px", "20px"]}
+      fontSize={["16px", "16px", "16px", "18px", "19px", "20px"]}
       fontWeight={"300"}
       letterSpacing={"1px"}
       paddingLeft={["3px", "4px", "6px"]}
