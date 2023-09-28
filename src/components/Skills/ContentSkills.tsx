@@ -5,7 +5,7 @@ import CardSkill from "./CardSkill";
 
 export default function ContentSkills() {
   return (
-    <Container display={""} alignItems={""} id={"skills"} height={"auto"}>
+    <Container display={""} alignItems={""} id={"skills"}>
       <Box padding="20px">
         <TextContent width="fit-content" text={"Conhecimentos"} />
         <Flex flexDirection="column" gap={["65px", "65px", "45px", "20px"]}>
