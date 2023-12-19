@@ -1,7 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import { Logo } from "../Common/Logo";
 import { NavigationOption } from "../Common/NavigationOption";
-import { Text } from "../Common/DefaultText";
 
 export function Menu() {
   return (
@@ -25,33 +24,36 @@ export function Menu() {
         ]}
         alignItems="center"
       >
+
+        <NavBarItemsFirst />
         <Logo />
-        <Box
-          width="445px"
-          display={["none", "none", "none", "none", "flex"]}
-          justifyContent="space-around"
-        >
-          <NavBarItems />
-        </Box>
+        <NavBarItemsSecond />
       </Box>
     </Box>
   );
 }
 
-const NavBarItems = () => {
+const NavBarItemsFirst = () => {
   return (
     <>
-      <NavigationOption link={"/"}>
-        <Text text={"Início"}></Text>
+      <NavigationOption link={"/"} display={["none", "none", "none", "none", "flex"]}>
+        Início
       </NavigationOption>
-      <NavigationOption link={"#about"}>
-        <Text text={"Sobre"}></Text>
+      <NavigationOption link={"#about"} display={["none", "none", "none", "none", "flex"]}>
+        Sobre
       </NavigationOption>
-      <NavigationOption link={"#skills"}>
-        <Text text={"Conhecimentos"}></Text>
+    </>
+  );
+};
+
+const NavBarItemsSecond = () => {
+  return (
+    <>
+      <NavigationOption link={"#skills"} display={["none", "none", "none", "none", "flex"]}>
+        Conhecimentos
       </NavigationOption>
-      <NavigationOption link={"#projects"}>
-        <Text text={"Projetos"}></Text>
+      <NavigationOption link={"#projects"} display={["none", "none", "none", "none", "flex"]}>
+        Projetos
       </NavigationOption>
     </>
   );

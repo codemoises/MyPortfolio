@@ -5,8 +5,8 @@ export function Logo() {
         <Image
         src={"/assets/Image/Logo.svg"}
         alt="Logo do Moises"
-        width={"80px"}
-        height={"80px"}
+        width={"90px"}
+        height={"90px"}
         />
     );
 }
