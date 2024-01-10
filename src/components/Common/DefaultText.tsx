@@ -9,7 +9,7 @@ export function Text({ text, ...rest }: DefaultTextProps) {
       className="hoveredText"
       fontFamily= "Saira, sans-serif"
       fontWeight="400"
-      fontSize="18px"
+      fontSize="16px"
       color="#c9c9c9"
       cursor="pointer"
       position="relative"
@@ -31,8 +31,7 @@ export function TextContent({ text, ...rest }: DefaultTextProps) {
       fontSize={["16px", "16px", "16px", "18px", "19px", "20px"]}
       fontWeight={"300"}
       letterSpacing={"1px"}
-      paddingLeft={["3px", "4px", "6px"]}
-      width={["auto"]}
+      paddingLeft={["0", "0", "6px"]}
       {...rest}
     >
       {text}
@@ -43,9 +42,8 @@ export function TextContent({ text, ...rest }: DefaultTextProps) {
 export function TextContentTwo({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
-      width={["auto", "auto", "512px", "620px", "813.328px"]}
       color="#ffffff"
-      fontSize={["40px", "56px", "66px", "76px", "76px", "80px"]}
+      fontSize={["20px", "30px", "30px", "40px", "40px", "50px"]}
       fontWeight={"300"}
       margin={"8px 0"}
       lineHeight={"120%"}
