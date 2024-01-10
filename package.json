@@ -14,13 +14,13 @@
     "@chakra-ui/icons": "^2.0.18",
     "@chakra-ui/layout": "^2.1.18",
     "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.11.1",
+    "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "framer-motion": "^10.16.16",
+    "framer-motion": "^10.17.12",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.63",
