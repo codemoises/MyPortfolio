@@ -1,16 +1,16 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
+import { ImageComponent } from "../ImageComponent";
 
 export default function AboutList() {
   return (
     <Box transform="translate(0px, 0px)" opacity="1">
       <Flex marginLeft="48px" marginTop="24px" gap="12px" alignItems="center">
         <Box width="26px" margin="0 4px">
-          <Image
-            width="100%"
-            height="15px"
-            objectFit="cover"
+          <ImageComponent
             src="/assets/Image/check-icon2.svg"
             alt="Imagem de um 'V'"
+            width="100%"
+            height="15px"
           />
         </Box>
         <Box transition=".5s ease" _hover={{ paddingLeft: "12px" }}>

@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { TextContent } from "../../Common/DefaultText";
+import { TextContent } from "../Common/DefaultText";
 
 export function AboutText() {
   return (

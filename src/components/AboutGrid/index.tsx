@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
-import { TextContent } from "../../Common/DefaultText";
-import AboutList from "./AboutList";
-import { AboutText } from "./AboutText";
+import { TextContent } from "../Common/DefaultText";
+import AboutList from "../AboutList";
+import { AboutText } from "../AboutText";
 
 export function AboutGrid() {
   return (

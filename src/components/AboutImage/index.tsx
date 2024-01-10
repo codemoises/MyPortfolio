@@ -1,4 +1,5 @@
-import { Box, Image } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import { ImageComponent } from "../ImageComponent";
 
 export default function ImagesGrid() {
   return (
@@ -21,11 +22,10 @@ export default function ImagesGrid() {
           transform="translate(0px, 0px)"
           opacity="1"
         />
-        <Image
-          width="100%"
-          objectFit="cover"
+        <ImageComponent
           src="/assets/Image/PhotoAbout.svg"
           alt="Foto exclusiva do Moises Cruz Braga"
+          width="100%"
         />
         <Box
           position="absolute"
