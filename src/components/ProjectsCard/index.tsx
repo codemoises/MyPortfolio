@@ -1,6 +1,6 @@
 import { Flex, Link } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
-import ImageContent from "./ImageContent";
+import ImageContent from "../ProjectsImage";
 
 interface CardProjectProps {
   title: string;
@@ -19,8 +19,8 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
-      width="100%"
-      height={["auto", "auto", "370px", "365px"]}
+      w={"xl"}
+      height={["auto", "auto", "300px", "247px"]}
       alignItems="center"
       justifyContent={["flex-start"]}
       flexDirection={["column", "row", "row", "row", "row"]}
@@ -40,7 +40,7 @@ export default function CardProjects({
           padding={"8px 8px 0 4px"}
           fontFamily={"Saira, sans-serif"}
           fontWeight={"300"}
-          fontSize={["24px", "26px", "28px", "30px"]}
+          fontSize={["16px", "18px", "20px", "25px"]}
           text={title}
         />
 

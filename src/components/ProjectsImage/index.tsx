@@ -1,4 +1,5 @@
 import { Box, Image } from "@chakra-ui/react";
+import { ImageComponent } from "../ImageComponent";
 
 
 interface ImageContentProps {
@@ -12,7 +13,7 @@ export default function ImageContent({src, alt}: ImageContentProps) {
             <Box w={"100%"} h={"100%"} 
           margin={["0", "0", "0px 8px 0 0px", "0px 8px 0 0px", "0px 8px 0 0px"]}
           padding={["0", "0", "0px 8px 0 0px", "0px 8px 0 0px", "0px 8px 0 0px"]}>
-                    <Image width="100%" height="100%" src={src} alt={alt} />
+                    <ImageComponent width="100%" height="100%" src={src} alt={alt} />
             </Box>
         </Box>
     );
