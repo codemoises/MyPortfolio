@@ -2,8 +2,8 @@ import { Box } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
 interface ContainerProps {
-  display: string;
-  alignItems: string;
+  display?: string;
+  alignItems?: string;
   children?: ReactNode;
   id: string;
 }
