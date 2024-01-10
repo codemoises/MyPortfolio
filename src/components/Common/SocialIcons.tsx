@@ -1,10 +1,11 @@
-import { Box, Link, Image, Flex } from "@chakra-ui/react";
+import { Box, Link, Flex } from "@chakra-ui/react";
+import { ImageComponent } from "../ImageComponent";
 
 export function SocialIcons() {
   return (
     <>
-      <Box margin="16px 0" padding="16px 0 16px 6px">
-        <Flex gap="24px" justifyContent={"start"}>
+      <Box margin={["20px 0", "20px 0", "16px 0", "20px 0", "20px 0"]} padding={["22px 0", "22px 0", "20px 0", "22px 0", "22px 0", ]}>
+        <Flex gap="24px" justifyContent={"center"}>
           <Link
             href="mailto:moisesbraga223@gmail.com"
             target="_blank"
@@ -12,7 +13,7 @@ export function SocialIcons() {
             transition="all 0.5s ease-in-out"
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <Image
+            <ImageComponent
               src="/assets/Image/gmail-icon.svg"
               height="30px"
               alt="Ícone do Email"
@@ -25,7 +26,7 @@ export function SocialIcons() {
             transition="all 0.5s ease-in-out"
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <Image
+            <ImageComponent
               src="../assets/Image/insta-icon.svg"
               height="30px"
               alt="Ícone do instagram"
@@ -38,7 +39,7 @@ export function SocialIcons() {
             transition="all 0.5s ease-in-out"
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <Image
+            <ImageComponent
               src="/assets/Image/linkedin-icon.svg"
               height="30px"
               alt="Ícone do linkedin"
@@ -51,7 +52,7 @@ export function SocialIcons() {
             transition="all 0.5s ease-in-out"
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <Image
+            <ImageComponent
               src="/assets/Image/github-icon.svg"
               height="30px"
               alt="Ícone do instagram"

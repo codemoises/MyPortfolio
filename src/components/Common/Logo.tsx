@@ -1,12 +1,19 @@
-import { Image } from "@chakra-ui/react";
+import { ImageComponent } from "../ImageComponent";
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/react";
 
 export function Logo() {
     return (
-        <Image
-        src={"/assets/Image/Logo.svg"}
-        alt="Logo do Moises"
-        width={"90px"}
-        height={"90px"}
-        />
+        <Breadcrumb>
+            <BreadcrumbItem>
+                <BreadcrumbLink href="#">
+                    <ImageComponent
+                    src={"/assets/Image/Logo.svg"}
+                    alt="Logo do Moises"    
+                    width={"95px"}
+                    height={"95px"}
+                    />
+                </BreadcrumbLink>
+            </BreadcrumbItem>
+        </Breadcrumb>
     );
 }
