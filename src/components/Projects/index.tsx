@@ -7,14 +7,13 @@ export default function Projects() {
   return (
     <Box id={"projects"} margin="0 auto"
     maxWidth="1200px"
-    height="100vh"
     padding={[
       "132px 0px 32px 0px",
       "132px 8px 32px 8px",
-      "0 24px 32px 24px",
-      "0 24px 32px 24px",
-      "0 8px 32px 8px",
-      "0px 16px",
+      "0 24px 157px 24px",
+      "0px 16px 157px 16px",
+      "0px 16px 157px 16px",
+      "0px 16px 157px 16px",
     ]}>
       <Box marginTop={["0", "0", "24px"]}>  
         <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
