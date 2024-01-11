@@ -64,6 +64,7 @@ export default function CardProjects({
             href={link}
             target="_blank"
             rel="external"
+            fontSize={["14px", "16px"]}
             _hover={{}}
             position={"relative"}
             _after={{
