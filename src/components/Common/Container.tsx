@@ -21,10 +21,10 @@ export function Container({
       alignItems={alignItems}
       id={id}
       margin="0 auto"
-      maxWidth="1440px"
+      maxWidth="1200px"
       padding={[
-        "132px 8px 32px 8px",
-        "132px 8px 32px 8px",
+        "132px 0px 32px 0px",
+        "132px 0px 32px 0px",
         "132px 8px 32px 8px",
         "132px 8px 32px 8px",
         "132px 8px 32px 8px",
