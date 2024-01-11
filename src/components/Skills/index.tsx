@@ -5,10 +5,21 @@ import CardSkill from "../SkillsCard";
 
 export default function ContentSkills() {
   return (
-    <Container display={""} alignItems={""} id={"skills"}>
-      <Box padding="20px">
-        <TextContent width="fit-content" text={"Conhecimentos"} />
-        <Flex flexDirection="column" gap={["65px", "65px", "45px", "20px"]}>
+    <Box id={"skills"} margin="0 auto"
+    maxWidth="1200px"
+    padding={[
+      "132px 0px 32px 8px",
+      "132px 8px 32px 8px",
+      "0 24px 32px 24px",
+      "0 24px 32px 24px",
+      "0 8px 32px 24px",
+      "0px 16px 24px 16px",
+    ]}>
+      <Box marginTop={["0", "0", "24px"]}>
+        <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
+          <TextContent width="fit-content" text={"Conhecimentos"} />
+        </Box>
+        <Flex flexDirection="column" gap={["65px", "65px", "45px", "20px"]} padding={["8px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}>
           <CardSkill
             img={"/assets/Image/javascript.svg"}
             alt={"Logo do JavaScript"}
@@ -59,6 +70,6 @@ export default function ContentSkills() {
           />
         </Flex>
       </Box>
-    </Container>
+    </Box>
   );
 }

@@ -13,17 +13,17 @@ export default function CardSkill({ img, alt, title, description }: CardProps) {
   return (
     <Flex
       flexDirection={"row"}
-      marginTop={["24px"]}
-      padding={["8px 0 0 0", "8px 0 0 0", "8px 0 0 25px"]}
       alignItems="center"
-      justifyContent={["space-evenly", "space-evenly", "space-evenly", "space-evenly", "space-evenly", "space-between"]}
     >
-      <Box display={"flex"}>
+      <Box display={"flex"} margin={["0", "0", "0px 8px 0 0px", "0px 8px 0 0px", "0px 8px 0 0px"]}
+             padding={["0", "0", "0px 8px 0 0px", "0px 8px 0 0px", "0px 8px 0 0px"]}>
         <ImageComponent width="85px" height="85px" src={img} alt={alt} />
       </Box>
       <Flex
         flexDirection="column"
-        width={["200px", "400px", "600px", "800px", "1080px", "1200px"]}
+        width={["330px", "530px", "600px", "800px", "900px", "960px"]}
+        margin={"8px 8px 0 8px"}
+        padding={"8px 8px 0 4px"}
         alignItems={"start"}
       >
         <TextContentThree
