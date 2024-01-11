@@ -1,6 +1,7 @@
 import { Flex, Link } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
 import ImageContent from "../ProjectsImage";
+import ProjectsImage from "../ProjectsImage";
 
 interface CardProjectProps {
   title: string;
@@ -19,18 +20,17 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
-      w={"xl"}
-      height={["auto", "auto", "300px", "247px"]}
+      w={"lg"}
+      maxHeight={"222px"}
       alignItems="center"
       justifyContent={["flex-start"]}
-      flexDirection={["column", "row", "row", "row", "row"]}
+      flexDirection={["row", "row", "row", "row", "row"]}
     >
-      <ImageContent src={src} alt={alt} />
+      <ProjectsImage src={src} alt={alt} />
       <Flex
         w={"sm"}
         h={"100%"}
         margin={["0", "0", "0", "8px 8px 0 0px", "8px 8px 0 0px"]}
-        padding={"8px 8px 0 0px"}
         flexDirection={"column"}
         position={"relative"}
         justifyContent={"center"}
@@ -54,11 +54,10 @@ export default function CardProjects({
           text={description}
         />
         <Flex
-          margin={["30px 6px", "12px 6px"]}
+          margin={ "12px 6px"}
           padding={"12px 6px"}
           gap={"14px"}
           alignItems={"center"}
-          justifyContent={["center", "flex-start", "flex-start", "flex-start", "flex-start"]}
         >
           <Link
             className="hoveredText"
