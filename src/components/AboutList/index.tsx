@@ -4,7 +4,7 @@ import { ImageComponent } from "../ImageComponent";
 export default function AboutList() {
   return (
     <Box transform="translate(0px, 0px)" opacity="1">
-      <Flex marginLeft="48px" marginTop="24px" gap="12px" alignItems="center">
+      <Flex marginTop="24px" gap="12px" alignItems="center">
         <Box width="26px" margin="0 4px">
           <ImageComponent
             src="/assets/Image/check-icon2.svg"
