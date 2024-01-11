@@ -8,12 +8,12 @@ export function MainContent() {
     <>
       <Box
         margin={[
-          "4px 4px 4px 4px",
-          "4px 4px 4px 22px",
-          "4px 4px 4px 22px",
-          "4px 4px 4px 22px",
-          "4px 4px 4px 22px",
-          "48px 4px 4px 4px",
+          "auto",
+          "0 auto",
+          "4px auto",
+          "4px auto",
+          "4px auto",
+          "48px auto",
         ]}
         padding="16px 0"
         display="flex"
