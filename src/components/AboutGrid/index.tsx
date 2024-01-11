@@ -8,7 +8,6 @@ export function AboutGrid() {
     <Box
       width={["auto", "auto", "auto", "auto", "calc(44.66667% - 8px)"]}
       margin={["4px", "4px", "4px", "4px", "4px"]}
-      padding={["16px 24px 0 0", "16px 24px 0 0", "16px 24px 0 0", "16px 24px 0 0", "16px 24px 0 0"]}
       float="left"
     >
       <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
