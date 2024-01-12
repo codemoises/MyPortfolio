@@ -4,8 +4,8 @@ import { ImageComponent } from "../ImageComponent";
 export function SocialIcons() {
   return (
     <>
-      <Box margin={["20px 0", "20px 0", "16px 0", "20px 0", "20px 0"]} padding={["22px 0", "22px 0", "20px 0", "22px 0", "22px 0", ]}>
-        <Flex gap="24px" justifyContent={"center"}>
+      <Box margin={"26px 0"} padding={"26px 0"}>
+        <Flex gap="24px" justifyContent={["center", "flex-start"]}>
           <Link
             href="mailto:moisesbraga223@gmail.com"
             target="_blank"

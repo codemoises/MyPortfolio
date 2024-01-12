@@ -28,7 +28,6 @@ export function TextContent({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
       color={"#c9c9c9"}
-      fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]}
       fontWeight={"300"}
       letterSpacing={"1px"}
       {...rest}
@@ -42,9 +41,7 @@ export function TextContentTwo({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
       color="#ffffff"
-      fontSize={["20px", "30px", "30px", "40px", "50px", "60px"]}
-      fontWeight={"300"}
-      margin={"8px 0"}
+      fontWeight={"400"}
       lineHeight={"120%"}
       {...rest}
     >

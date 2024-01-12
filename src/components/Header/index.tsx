@@ -4,9 +4,9 @@ import { Logo } from "../Common/Logo";
 export function Header() {
   return (
     <Box
+      position={"absolute"}
+      top={"0"}
       width="100%"
-      bgGradient={["linear(180deg, #050607 0%, #05060700 100%)"]}
-      position="fixed"
       zIndex="1000"
     >
       <Box

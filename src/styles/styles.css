@@ -7,14 +7,12 @@ html {
     width: 100%;
 }
 
-.blink {
+.blink::after {
+    content: '|';
+    font-family: cursive;
     padding-left: 4px;
     text-align: center;
-}
-
-.blink span {
-    font-family: cursive;
-    color: #6710f2;
+    color: #7528F0;
     animation: blink 1s linear infinite;
 }
 
