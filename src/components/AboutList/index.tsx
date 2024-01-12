@@ -7,7 +7,7 @@ export default function AboutList() {
       <Flex marginTop="24px" gap="12px" alignItems="center">
         <Box width="26px" margin="0 4px">
           <ImageComponent
-            src="/assets/Image/check-icon2.svg"
+            src="/assets/Image/v.svg"
             alt="Imagem de um 'V'"
             width="100%"
             height="15px"

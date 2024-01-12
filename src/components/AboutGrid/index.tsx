@@ -11,7 +11,7 @@ export function AboutGrid() {
       float="left"
     >
       <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
-        <TextContent text="Sobre mim" />
+        <TextContent fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text="Sobre mim" />
       </Box>
 
       <Box padding={["8px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}>

@@ -9,11 +9,11 @@ export function About() {
     maxWidth="1200px"
     padding={[
       "132px 0px 32px 0px",
-      "132px 8px 32px 8px",
-      "0 24px 157px 24px",
-      "0px 16px 157px 16px",
-      "0px 16px 157px 16px",
-      "0px 16px 157px 16px",
+      "132px 8px 45px 8px",
+      "96px 24px 45px 24px",
+      "96px 16px 157px 16px",
+      "96px 16px 157px 16px",
+      "96px 16px 157px 16px",
     ]}>
         <Flex alignItems="center" justifyContent="space-between" flexDirection={["column", "column", "column", "column", "row"]}>
           <AboutGrid />

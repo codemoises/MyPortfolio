@@ -11,7 +11,7 @@ export function AboutText() {
         width="auto"
         textTransform="-moz-initial"
         lineHeight="140%"
-        text="Eu sou um Desenvolvedor Front-End de Aquiraz, Ceará. Sou formado em uma universidade, mas também tenho aprendido por conta própria. Gosto de programação e design web, e tenho habilidades em tecnologias como HTML, CSS, JavaScript, React e Next. Meu objetivo é continuar crescendo como Desenvolvedor Front-End e contribuir para projetos que melhorem a experiência do usuário na web."
+        text="Eu sou um Desenvolvedor Front-End de Aquiraz, Ceará. Sou formado em uma universidade, mas também tenho aprendido por conta própria. Gosto de programação e design web. Meu objetivo é continuar crescendo como Desenvolvedor Front-End e contribuir para projetos que melhorem a experiência do usuário na web."
         _hover={{ transform: "none" }}
       ></TextContent>
       <br />
