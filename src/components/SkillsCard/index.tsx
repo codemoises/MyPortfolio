@@ -13,7 +13,7 @@ export default function SkillsCard({ img, alt }: CardProps) {
       alignItems="center"
     >
       <Box>
-        <ImageComponent width={"144.83px"} src={img} alt={alt} />
+        <ImageComponent width={"146.83px"} src={img} alt={alt} />
       </Box>
     </Flex>
   );
