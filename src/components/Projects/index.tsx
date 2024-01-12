@@ -15,9 +15,9 @@ export default function Projects() {
       "0px 16px 157px 16px",
       "0px 16px 157px 16px",
     ]}>
-      <Box marginTop={["0", "0", "24px"]}>  
+      <Box>  
         <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
-          <TextContent text={"Projetos"} />
+          <TextContent fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text={"Projetos"} />
         </Box>
         <Flex
           padding={["8px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}
