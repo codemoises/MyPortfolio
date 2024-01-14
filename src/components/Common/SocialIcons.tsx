@@ -4,62 +4,67 @@ import { ImageComponent } from "../ImageComponent";
 export function SocialIcons() {
   return (
     <>
-      <Box margin={"26px 0"} padding={"26px 0"}>
-        <Flex gap="24px">
+      <Box 
+        margin={"26px 0"} 
+        padding={"26px 0"}
+      >
+        <Flex 
+          gap="24px"
+        >
           <Link
-            href="mailto:moisesbraga223@gmail.com"
-            target="_blank"
-            rel="external"
-            transition="all 0.5s ease-in-out"
+            href={"mailto:moisesbraga223@gmail.com"}
+            target={"_blank"}
+            rel={"external"}
+            transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <ImageComponent
-              src="/assets/Image/gmail-icon.svg"
-              height="30px"
-              alt="Ícone do Email"
+              src={"/assets/Image/gmail-icon.svg"}
+              height={"30px"}
+              alt={"Ícone do Email"}
             />
           </Link>
           <Link
-            href="http://www.instagram.com/moisescrvz"
-            target="_blank"
-            rel="external"
-            transition="all 0.5s ease-in-out"
+            href={"http://www.instagram.com/moisescrvz"}
+            target={"_blank"}
+            rel={"external"}
+            transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <ImageComponent
-              src="../assets/Image/insta-icon.svg"
-              height="30px"
-              alt="Ícone do instagram"
+              src={"../assets/Image/insta-icon.svg"}
+              height={"30px"}
+              alt={"Ícone do instagram"}
             />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/moises-cruz-04531521b/"
-            target="_blank"
-            rel="external"
-            transition="all 0.5s ease-in-out"
+            href={"https://www.linkedin.com/in/moises-cruz-04531521b/"}
+            target={"_blank"}
+            rel={"external"}
+            transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <ImageComponent
-              src="/assets/Image/linkedin-icon.svg"
-              height="30px"
-              alt="Ícone do linkedin"
+              src={"/assets/Image/linkedin-icon.svg"}
+              height={"30px"}
+              alt={"Ícone do linkedin"}
             />
           </Link>
           <Link
-            href="http://www.github.com/mwises"
-            target="_blank"
-            rel="external"
-            transition="all 0.5s ease-in-out"
+            href={"http://www.github.com/mwises"}
+            target={"_blank"}
+            rel={"external"}
+            transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
             <ImageComponent
-              src="/assets/Image/github-icon.svg"
-              height="30px"
-              alt="Ícone do instagram"
+              src={"/assets/Image/github-icon.svg"}
+              height={"30px"}
+              alt={"Ícone do instagram"}
             />
           </Link>
         </Flex>
       </Box>
     </>
   );
-}
+};

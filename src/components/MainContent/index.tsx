@@ -15,23 +15,63 @@ export function MainContent() {
         flexDirection={"row"}
       >
         <Box>
-          <Box width={["fit-content", "auto"]}>
+          <Box 
+            width={[
+              "fit-content", 
+              "auto"
+            ]}
+          >
             <TextContent 
               fontSize={"30px"}
-              text="Olá, eu sou o" />
+              text={"Olá, eu sou o"} 
+            />
           </Box>
-          <Box width={["fit-content", "auto"]}>
-            <TextContentTwo fontSize={["52px", "72px"]} margin={["12px 0 12px 12px"]} text="Moises Cruz" />
+          <Box 
+            width={[
+              "fit-content", 
+              "auto"
+            ]}
+          >
+            <TextContentTwo 
+              fontSize={[
+                "52px", 
+                "72px"
+              ]} 
+              margin={[
+                "12px 0 12px 12px"
+              ]} 
+              text={"Moises Cruz"} 
+            />
           </Box>
-          <Box width={["fit-content", "auto"]}>
-              <TextContent className="blink" fontSize={"30px"} text="desenvolvedor Front-End."/>
+          <Box 
+            width={[
+              "fit-content", 
+              "auto"
+            ]}
+          >
+            <TextContent 
+              className={"blink"} 
+              fontSize={"30px"} 
+              text={"desenvolvedor Front-End."} 
+            />
           </Box>
           <SocialIcons />
         </Box>
-        <Box display={["none", "none", "none", "none", "block"]}>
-          <ImageComponent src="assets/Image/developer.svg" width="356px" alt="Imagem developer" />
+        <Box 
+          display={[
+            "none", 
+            "none", 
+            "none", 
+            "none", 
+            "block"
+          ]}
+        >
+          <ImageComponent 
+            src={"assets/Image/developer.svg"} 
+            width={"356px"} 
+            alt={"Imagem developer"} />
         </Box>
       </Box>
     </>
   );
-}
+};

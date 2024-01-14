@@ -10,11 +10,11 @@ interface imageProps {
 export function ImageComponent({ src, alt, width, height, ...rest }: imageProps) {
     return (
         <Image
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        {...rest}
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+            {...rest}
         />
     );
-}
+};

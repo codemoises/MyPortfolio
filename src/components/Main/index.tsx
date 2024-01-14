@@ -19,4 +19,4 @@ export function Home() {
         <MainContent />
     </Box>
   );
-}
+};

@@ -6,7 +6,7 @@ interface ContainerProps {
   alignItems?: string;
   children?: ReactNode;
   id: string;
-}
+};
 
 export function Container({
   display,
@@ -20,8 +20,8 @@ export function Container({
       display={display}
       alignItems={alignItems}
       id={id}
-      margin="0 auto"
-      maxWidth="1200px"
+      margin={"0 auto"}
+      maxWidth={"1200px"}
       padding={[
         "132px 0px 32px 0px",
         "132px 0px 32px 0px",
@@ -35,4 +35,4 @@ export function Container({
       {children}
     </Box>
   );
-}
+};

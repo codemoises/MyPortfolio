@@ -6,14 +6,19 @@ interface NavigationOptionProps extends LinkProps{
   link: string;
   children?: ReactNode;
   
-}
+};
 
 export function NavigationOption({ link, children, ...rest}: NavigationOptionProps) {
   return (
-    <NextLink href={link} passHref>
-      <Link style={{ textDecoration: "none" }} {...rest}>
+    <NextLink 
+      href={link} 
+      passHref
+    >
+      <Link 
+        style={{ textDecoration: "none" }} 
+        {...rest}>
         {children}
       </Link>
     </NextLink>
   );
-}
+};

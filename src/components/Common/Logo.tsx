@@ -8,7 +8,7 @@ export function Logo() {
                 <BreadcrumbLink href="#">
                     <ImageComponent
                     src={"/assets/Image/Logo.svg"}
-                    alt="Logo do Moises"    
+                    alt={"Logo do Moises"}    
                     width={"95px"}
                     height={"95px"}
                     />
@@ -16,4 +16,4 @@ export function Logo() {
             </BreadcrumbItem>
         </Breadcrumb>
     );
-}
+};

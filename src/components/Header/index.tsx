@@ -6,16 +6,16 @@ export function Header() {
     <Box
       position={"absolute"}
       top={"0"}
-      width="100%"
-      zIndex="1000"
+      width={"100%"}
+      zIndex={"1000"}
     >
       <Box
-        margin="10px auto"
-        maxWidth="1200px"
-        padding="10px 10px"
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
+        margin={"10px auto"}
+        maxWidth={"1200px"}
+        padding={"10px 10px"}
+        display={"flex"}
+        justifyContent={"center"}
+        alignItems={"center"}
       >
         <Logo />
       </Box>
