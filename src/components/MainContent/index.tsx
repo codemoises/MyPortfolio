@@ -17,14 +17,14 @@ export function MainContent() {
         <Box>
           <Box width={["fit-content", "auto"]}>
             <TextContent 
-              fontSize={["28px", "28px"]}
+              fontSize={"30px"}
               text="Olá, eu sou o" />
           </Box>
           <Box width={["fit-content", "auto"]}>
-            <TextContentTwo fontSize={["50px", "72px"]} margin={["12px 0 12px 12px"]} text="Moises Cruz" />
+            <TextContentTwo fontSize={["52px", "72px"]} margin={["12px 0 12px 12px"]} text="Moises Cruz" />
           </Box>
           <Box width={["fit-content", "auto"]}>
-              <TextContent className="blink" fontSize={["28px", "28px"]} text="desenvolvedor Front-End."/>
+              <TextContent className="blink" fontSize={"30px"} text="desenvolvedor Front-End."/>
           </Box>
           <SocialIcons />
         </Box>
