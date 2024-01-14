@@ -3,7 +3,7 @@ import { TextContent } from "../Common/DefaultText";
 
 export function AboutText() {
   return (
-    <Box marginTop="24px">
+    <Box margin="24px 8px 0">
       <TextContent
         fontFamily="Mukta"
         fontSize={["14px", "18px"]}
