@@ -8,17 +8,17 @@ export default function ContentSkills() {
     maxWidth="1200px"
     padding={[
       "132px 0px 32px 8px",
-      "132px 8px 32px 8px",
-      "0 24px 32px 24px",
-      "0 24px 32px 24px",
-      "0 8px 32px 24px",
-      "0px 16px 24px 16px",
+      "132px 8px 45px 8px",
+      "96px 24px 45px 24px",
+      "96px 24px 157px 24px",
+      "96px 8px 157px 24px",
+      "96px 16px 157px 16px",
     ]}>
       <Box marginTop={["0", "0", "24px"]}>
         <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
           <TextContent fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text={"Conhecimentos"} />
         </Box>
-        <Flex maxWidth={"588px"} flexWrap={"wrap"}  gap={["32px", "65px", "28px", "28px", "28px"]} padding={["8px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}>
+        <Flex maxWidth={"588px"} flexWrap={"wrap"}  gap={["32px", "65px", "28px", "28px", "28px"]} padding={["12px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}>
           <SkillsCard
             img={"/assets/Image/javascript.svg"}
             alt={"Logo do JavaScript"}        />
