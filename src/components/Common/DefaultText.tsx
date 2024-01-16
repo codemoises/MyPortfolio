@@ -36,7 +36,7 @@ export function Text({ text, ...rest }: DefaultTextProps) {
 export function TextContent({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
-      color={"#c9c9c9"}
+      color={"#fff"}
       fontWeight={"300"}
       letterSpacing={"1px"}
       {...rest}
@@ -50,7 +50,6 @@ export function TextContentTwo({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
       color={"#ffffff"}
-      fontWeight={"400"}
       lineHeight={"120%"}
       {...rest}
     >
