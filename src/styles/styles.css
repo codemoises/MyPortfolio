@@ -16,23 +16,8 @@ html {
     animation: blink 1s linear infinite;
 }
 
-.image-animation {
-    animation: go-back 1s infinite alternate;
-}
-
-
 @keyframes blink {
     0%{opacity: 0;}
     50%{opacity: .5;}
     100%{opacity: 1;}
-}
-
-
-@keyframes go-back {
-    0% {
-        transform: translateY(66px);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
