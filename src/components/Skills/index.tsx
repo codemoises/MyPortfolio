@@ -34,6 +34,7 @@ export default function ContentSkills() {
           ]}
         >
           <TextContent 
+            fontWeight={"400"}
             fontSize={[
               "18px", 
               "18px", 
@@ -56,7 +57,7 @@ export default function ContentSkills() {
             "28px"
           ]} 
           padding={[
-            "12px 8px 0 8px", 
+            "32px 8px 0 8px", 
             "16px 0 0 0", 
             "16px 0 0 0", 
             "16px 0 0 0", 
