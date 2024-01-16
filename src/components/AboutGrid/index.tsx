@@ -30,6 +30,7 @@ export function AboutGrid() {
           0
           ]}>
           <TextContent
+              fontWeight={"400"}
               fontSize={[
                 "18px", 
                 "18px", 
@@ -43,7 +44,7 @@ export function AboutGrid() {
 
       <Box 
         padding={[
-          "12px 8px 0 8px", 
+          "32px 8px 0 8px", 
           "16px 0 0 0", 
           "16px 0 0 0", 
           "16px 0 0 0", 
