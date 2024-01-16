@@ -5,8 +5,8 @@ export function SocialIcons() {
   return (
     <>
       <Box 
-        margin={"26px 0"} 
-        padding={"26px 0"}
+        margin={"26px 0 0 0"} 
+        padding={"26px 0 0 0"}
       >
         <Flex 
           gap="24px"

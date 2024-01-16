@@ -15,7 +15,7 @@ export function MainContent() {
         flexDirection={"row"}
       >
         <Box>
-          <Box 
+          <Box
             width={[
               "fit-content", 
               "auto"
@@ -34,11 +34,18 @@ export function MainContent() {
           >
             <TextContentTwo 
               fontSize={[
-                "52px", 
-                "72px"
+                "62px", 
+                "72px",
+                "82px",
+                "82px",
+                "82px"
               ]} 
               margin={[
-                "12px 0 12px 12px"
+                "16px 0 16px 12px",
+                "16px 0 16px 0",
+                "12px 0 12px 0",
+                "12px 0 12px 0",
+                "12px 0 12px 0"
               ]} 
               text={"Moises Cruz"} 
             />
@@ -57,7 +64,7 @@ export function MainContent() {
           </Box>
           <SocialIcons />
         </Box>
-        <Box 
+        <Box
           display={[
             "none", 
             "none", 
