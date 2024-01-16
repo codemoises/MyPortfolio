@@ -16,10 +16,10 @@ export default function Projects() {
     ]}>
       <Box>  
         <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
-          <TextContent fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text={"Projetos"} />
+          <TextContent fontWeight={"400"} fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text={"Projetos"} />
         </Box>
         <Flex
-          padding={["12px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}
+          padding={["16px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}
           gap={"32px"}
           justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]}
           flexWrap={"wrap"}
