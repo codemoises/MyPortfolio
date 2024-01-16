@@ -9,6 +9,7 @@ export function SocialIcons() {
         padding={"26px 0 0 0"}
       >
         <Flex 
+          justifyContent={["center", "flex-start", "flex-start", "flex-start", "flex-start"]}
           gap="24px"
         >
           <Link
