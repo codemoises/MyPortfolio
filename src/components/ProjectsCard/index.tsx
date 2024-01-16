@@ -1,6 +1,5 @@
 import { Flex, Link } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
-import ImageContent from "../ProjectsImage";
 import ProjectsImage from "../ProjectsImage";
 
 interface CardProjectProps {
