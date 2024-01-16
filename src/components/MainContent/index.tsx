@@ -10,38 +10,33 @@ export function MainContent() {
         width={"100%"}
         padding={"0 25px"}
         display={"flex"}
-        justifyContent={"space-between"}
+        justifyContent={["center", "center", "space-between"]}
         alignItems={"center"}
         flexDirection={"row"}
       >
         <Box>
-          <Box
-            width={[
-              "fit-content", 
-              "auto"
-            ]}
-          >
-            <TextContent 
+          <Box>
+            <TextContent
+              textAlign={["center", "left", "left", "left", "left"]}
+              color={"#c9c9c9"}
               fontSize={"30px"}
               text={"Olá, eu sou o"} 
             />
           </Box>
-          <Box 
-            width={[
-              "fit-content", 
-              "auto"
-            ]}
-          >
-            <TextContentTwo 
+          <Box>
+            <TextContentTwo
+              fontFamily={"'Inter', sans-serif"} 
+              fontWeight={"800"}
+              textAlign={["center", "left", "left", "left", "left"]}
               fontSize={[
-                "62px", 
-                "72px",
+                "43px", 
+                "68px",
                 "82px",
                 "82px",
                 "82px"
               ]} 
               margin={[
-                "16px 0 16px 12px",
+                "16px 0 16px 0",
                 "16px 0 16px 0",
                 "12px 0 12px 0",
                 "12px 0 12px 0",
@@ -50,13 +45,10 @@ export function MainContent() {
               text={"Moises Cruz"} 
             />
           </Box>
-          <Box 
-            width={[
-              "fit-content", 
-              "auto"
-            ]}
-          >
+          <Box>
             <TextContent 
+              textAlign={["center", "left", "left", "left", "left"]}
+              color={"#c9c9c9"}
               className={"blink"} 
               fontSize={"30px"} 
               text={"desenvolvedor Front-End."} 
