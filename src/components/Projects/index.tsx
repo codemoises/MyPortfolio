@@ -1,4 +1,5 @@
 import { Box, Flex } from "@chakra-ui/react";
+import { motion } from "framer-motion"
 import { TextContent } from "../Common/DefaultText";
 import CardProjects from "../ProjectsCard";
 

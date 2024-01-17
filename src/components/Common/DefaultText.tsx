@@ -36,6 +36,7 @@ export function Text({ text, ...rest }: DefaultTextProps) {
 export function TextContent({ text, ...rest }: DefaultTextProps) {
   return (
     <ChakraText
+      width={"fit-content"}
       color={"#fff"}
       fontWeight={"300"}
       letterSpacing={"1px"}
