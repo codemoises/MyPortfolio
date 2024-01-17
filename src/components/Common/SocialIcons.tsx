@@ -5,17 +5,20 @@ export function SocialIcons() {
   return (
     <>
       <Box 
+        maxWidth={"fit-content"}
         margin={"26px 0 0 0"} 
         padding={"26px 0 0 0"}
       >
         <Flex 
+          className="social"
           justifyContent={["center", "flex-start", "flex-start", "flex-start", "flex-start"]}
-          gap="24px"
+          transition={"opacity 0.2s ease-in 0s"}
         >
           <Link
             href={"mailto:moisesbraga223@gmail.com"}
             target={"_blank"}
             rel={"external"}
+            margin={"0 8px"}
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
@@ -29,6 +32,7 @@ export function SocialIcons() {
             href={"http://www.instagram.com/moisescrvz"}
             target={"_blank"}
             rel={"external"}
+            margin={"0 8px"}
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
@@ -42,6 +46,7 @@ export function SocialIcons() {
             href={"https://www.linkedin.com/in/moises-cruz-04531521b/"}
             target={"_blank"}
             rel={"external"}
+            margin={"0 8px"}
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
@@ -55,8 +60,9 @@ export function SocialIcons() {
             href={"http://www.github.com/mwises"}
             target={"_blank"}
             rel={"external"}
+            margin={"0 8px"}
             transition={"all 0.5s ease-in-out"}
-            _hover={{ transform: "translate(0, -10px)" }}
+            _hover={{ transform: "translate(0, -10px)"}}
           >
             <ImageComponent
               src={"/assets/Image/github-icon.svg"}

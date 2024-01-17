@@ -93,3 +93,11 @@ html {
         animation-fill-mode: forwards;
       }
   }
+
+  .social:hover a {
+    opacity: 0.5;
+  }
+
+  .social a:hover {
+    opacity: 1;
+  }
