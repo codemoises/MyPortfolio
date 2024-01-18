@@ -51,8 +51,8 @@ export function MainContent() {
                 fontSize={"30px"} 
                 text={"desenvolvedor Front-End."} 
               />
-          </Flex>
           <SocialIcons />
+          </Flex>
         </Box>
         <Box
           display={[
