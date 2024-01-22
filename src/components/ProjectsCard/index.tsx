@@ -1,4 +1,4 @@
-import { Flex, Link } from "@chakra-ui/react";
+import { Box, Flex, Link } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
 import ProjectsImage from "../ProjectsImage";
 
@@ -19,43 +19,38 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
-      w={"lg"}
-      maxHeight={"222px"}
+      width={["330px", "466px", "720px", "1668px", "555px"]}
+      marginBottom={"55px"}
       alignItems="center"
       justifyContent={["flex-start"]}
-      flexDirection={["row", "row", "row", "row", "row"]}
+      flexDirection={["column", "row", "row", "row", "row"]}
     >
       <ProjectsImage src={src} alt={alt} />
-      <Flex
-        w={"sm"}
-        h={"100%"}
-        margin={["0", "0", "0", "8px 8px 0 0px", "8px 8px 0 0px"]}
+      <Box
+        maxWidth={["330px", "236px", "490px", "490px", "325px"]}
+        display={"flex"}
+        padding={["12px 0", "0 0 0 16px", "0 0 0 16px", "0 0 0 16px", "0 0 0 16px"]}
         flexDirection={"column"}
-        position={"relative"}
+        flex={"wrap"}
         justifyContent={"center"}
       >
         <TextContentThree
-          margin={"8px 8px 0 8px"}
-          padding={"8px 8px 0 4px"}
           fontFamily={"Saira, sans-serif"}
           fontWeight={"300"}
-          fontSize={["16px", "18px", "20px", "25px"]}
+          fontSize={["20px", "22px", "25px", "25px", "25px"]}
+          padding={["0 0 4px 0", "0", "0", "0", "0"]}
           text={title}
         />
 
         <TextContentTwo
-          width={"auto"}
           color={"#a2a3a5"}
-          fontSize={["14px", "14px", "14px", "15px", "16px"]}
-          margin={"4px 6px 0 6px"}
-          padding={"4px 6px 0 6px"}
+          fontSize={["14px", "14px", "15px", "15px", "16px"]}
           lineHeight={"140%"}
+          padding={["6px 0", "6px 0", "6px 0", "6px 0", "8px 0"]}
           text={description}
         />
         <Flex
-          margin={ "12px 6px"}
-          padding={"12px 6px"}
-          gap={"14px"}
+          padding={["4px 0 4px 0", "0", "0", "0", "0"]}
           alignItems={"center"}
         >
           <Link
@@ -80,7 +75,7 @@ export default function CardProjects({
             Visualizar projeto
           </Link>
         </Flex>
-      </Flex>
+      </Box>
     </Flex>
   );
 };

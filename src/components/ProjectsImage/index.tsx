@@ -9,19 +9,8 @@ export default function ProjectsImage({src, alt}: ImageContentProps) {
     return (
         <Box 
             display={"flex"} 
-            justifyContent={"center"}
-            margin={[
-                "0", "0", "0px 8px 0 0px", 
-                "0px 8px 0 0px", 
-                "0px 8px 0 0px"]} 
-             padding={[
-                "0", 
-                "0", 
-                "0px 8px 0 0px", 
-                "0px 8px 0 0px", 
-                "0px 8px 0 0px"]} 
-            maxWidth={"384px"} 
-            maxHeight={"300px"}
+            justifyContent={"center"} 
+            maxWidth={["330px", "230px"]} 
         >
             <Box
               w={"100%"} 
