@@ -20,7 +20,7 @@ export function MainContent() {
                 maxWidth={"fit-content"}
                 textAlign={["center", "left", "left", "left", "left"]}
                 color={"#c9c9c9"}
-                fontSize={"30px"}
+                fontSize={["20px", "30px", "30px", "30px", "30px"]}
                 text={"Olá, eu sou o"} 
               />
               <TextContentTwo
@@ -29,7 +29,7 @@ export function MainContent() {
                 fontWeight={"800"}
                 textAlign={["center", "left", "left", "left", "left"]}
                 fontSize={[
-                  "43px", 
+                  "35px", 
                   "68px",
                   "82px",
                   "82px",
@@ -48,9 +48,9 @@ export function MainContent() {
                 textAlign={["center", "left", "left", "left", "left"]}
                 color={"#c9c9c9"}
                 className={"blink"} 
-                fontSize={"30px"} 
+                fontSize={["20px", "30px", "30px", "30px", "30px"]}
                 text={"desenvolvedor Front-End."} 
-              />
+              />  
           <SocialIcons />
           </Flex>
         </Box>

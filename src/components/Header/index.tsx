@@ -10,9 +10,9 @@ export function Header() {
       zIndex={"1000"}
     >
       <Box
-        margin={"10px auto"}
+        margin={["36px auto", "10px auto"]}
         maxWidth={"1200px"}
-        padding={"10px 10px"}
+        padding={["25px 10px"]}
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
