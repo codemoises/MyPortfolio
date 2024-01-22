@@ -22,7 +22,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <ImageComponent src="/assets/Image/insta-icon.svg" alt="icone do instagram" height="30" />
+            <ImageComponent src="/assets/Image/insta-icon.svg" alt="icone do instagram" height="25" />
           </Link>
           <Link
             href={"https://www.linkedin.com/in/moises-cruz-04531521b/"}
@@ -32,7 +32,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <ImageComponent src="/assets/Image/linkedin-icon.svg" alt="icone do linkedin" height="30" />
+            <ImageComponent src="/assets/Image/linkedin-icon.svg" alt="icone do linkedin" height="25" />
             
           </Link>
           <Link
@@ -43,7 +43,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <ImageComponent src="/assets/Image/gmail-icon.svg" alt="icone do email" height="30" />
+            <ImageComponent src="/assets/Image/gmail-icon.svg" alt="icone do email" height="25" />
           </Link>
           <Link
             href={"http://www.github.com/mwises"}
@@ -53,7 +53,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)"}}
           >
-            <ImageComponent src="/assets/Image/github-icon.svg" alt="icone do github" height="30" />
+            <ImageComponent src="/assets/Image/github-icon.svg" alt="icone do github" height="25" />
           </Link>
         </Flex>
       </Box>
