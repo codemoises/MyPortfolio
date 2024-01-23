@@ -47,9 +47,10 @@ export default function ContentSkills() {
           />
         </Box>
         <Flex 
-          padding={["16px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}
+          padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 25px 0 25px"]}
           justifyContent={"space-between"}
           flexWrap={"wrap"}
+          gap={["110px", "0", "0", "0", "0"]}
         >
           <SkillsCard src="/assets/Image/javascript.svg" alt="imagem logo do javaScript" title="JavaScript" description="No JavaScript foi onde tudo começou, sendo esta a minha primeira linguagem de programação." />
           <SkillsCard src="/assets/Image/typescript.svg" alt="Imagem logo do typeScript" title="TypeScript" description="

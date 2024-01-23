@@ -19,7 +19,7 @@ export default function CardProjects({
   return (
     <Flex
       width={["330px", "466px", "720px", "1668px", "555px"]}
-      marginBottom={"110px"}
+      padding={["0", "55px 0", "55px 0", "55px 0", "55px 0"]}
       justifyContent={["flex-start"]}
       flexDirection={"column"}
     >

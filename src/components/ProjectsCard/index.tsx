@@ -21,7 +21,7 @@ export default function CardProjects({
   return (
     <Flex
       width={["330px", "466px", "720px", "1668px", "555px"]}
-      padding={"55px 0"}
+      padding={["0", "55px 0", "55px 0", "55px 0", "55px 0"]}
       alignItems="center"
       justifyContent={["flex-start"]}
       flexDirection={["column", "row", "row", "row", "row"]}

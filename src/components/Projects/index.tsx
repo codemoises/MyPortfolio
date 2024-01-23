@@ -20,11 +20,12 @@ export default function Projects() {
           <TextContent fontWeight={"400"} fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text={"Projetos"} />
         </Box>
         <Flex
-          padding={["16px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 0 0 25px"]}
+          padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 25px 0 25px"]}
           justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]}
           flexWrap={"wrap"}
+          gap={["110px", "0", "0", "0", "0"]}
         >
-          <CardProjects 
+          <CardProjects
             title={"BlueTalks"}
             link={"https://github.com/SaulloPontes/Bluetalks"}
             description={"Uma prancheta virtual que facilite a comunicação de pessoas com deficiência."}
