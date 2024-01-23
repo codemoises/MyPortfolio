@@ -21,7 +21,7 @@ export default function CardProjects({
   return (
     <Flex
       width={["330px", "466px", "720px", "1668px", "555px"]}
-      marginBottom={"55px"}
+      marginBottom={"110px"}
       alignItems="center"
       justifyContent={["flex-start"]}
       flexDirection={["column", "row", "row", "row", "row"]}

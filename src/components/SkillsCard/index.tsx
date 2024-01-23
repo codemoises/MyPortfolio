@@ -19,11 +19,11 @@ export default function CardProjects({
   return (
     <Flex
       width={["330px", "466px", "720px", "1668px", "555px"]}
-      marginBottom={"55px"}
+      marginBottom={"110px"}
       justifyContent={["flex-start"]}
       flexDirection={"column"}
     >
-      <Box width={"48px"}>
+      <Box width={"40px"}>
         <ImageComponent width="100%" src={src} alt={alt}  />
       </Box>
       <Flex
@@ -36,7 +36,7 @@ export default function CardProjects({
           fontFamily={"Saira, sans-serif"}
           fontWeight={"300"}
           fontSize={["16px", "18px", "20px", "25px"]}
-          padding={["6px 0", "6px 0", "6px 0", "6px 0", "8px 0"]}
+          padding={["6px 0", "6px 0", "6px 0", "6px 0", "16px 0"]}
           text={title}
         />
 
