@@ -21,7 +21,7 @@ export default function CardProjects({
   return (
     <Flex
       width={["330px", "466px", "720px", "1668px", "555px"]}
-      marginBottom={"110px"}
+      padding={"55px 0"}
       alignItems="center"
       justifyContent={["flex-start"]}
       flexDirection={["column", "row", "row", "row", "row"]}
@@ -29,6 +29,7 @@ export default function CardProjects({
       <ProjectsImage src={src} alt={alt} />
       <Box
         maxWidth={["330px", "236px", "490px", "490px", "325px"]}
+        height={"100%"}
         display={"flex"}
         padding={["12px 0", "0 0 0 16px", "0 0 0 16px", "0 0 0 16px", "0 0 0 16px"]}
         flexDirection={"column"}
@@ -37,8 +38,8 @@ export default function CardProjects({
       >
         <TextContentThree
           fontFamily={"Saira, sans-serif"}
-          fontWeight={"300"}
-          fontSize={["20px", "22px", "25px", "25px", "25px"]}
+          fontWeight={"400"}
+          fontSize={["22px", "22px", "25px", "25px", "25px"]}
           padding={["0 0 4px 0", "0", "0", "0", "0"]}
           text={title}
         />

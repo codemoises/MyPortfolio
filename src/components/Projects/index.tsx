@@ -15,7 +15,7 @@ export default function Projects() {
       "0px 16px 157px 16px",
       "0px 16px 157px 16px",
     ]}>
-      <Box>  
+      <Box>
         <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
           <TextContent fontWeight={"400"} fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text={"Projetos"} />
         </Box>

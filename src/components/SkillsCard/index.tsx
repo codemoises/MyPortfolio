@@ -34,9 +34,9 @@ export default function CardProjects({
       >
         <TextContentThree
           fontFamily={"Saira, sans-serif"}
-          fontWeight={"300"}
-          fontSize={["16px", "18px", "20px", "25px"]}
-          padding={["6px 0", "6px 0", "6px 0", "6px 0", "16px 0"]}
+          fontWeight={"400"}
+          fontSize={["22px", "22px", "25px", "25px"]}
+          padding={"16px 0"}
           text={title}
         />
 
