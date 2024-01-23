@@ -1,6 +1,7 @@
 import { Box, Flex, Link } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
 import ProjectsImage from "../ProjectsImage";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 interface CardProjectProps {
   title: string;
@@ -63,7 +64,7 @@ export default function CardProjects({
             position={"relative"}
             _after={{
               content: "''",
-              background: "linear-gradient(270deg, #6E3AFF 0%, #000 100%)",
+              background: "linear-gradient(270deg, #7528F0 0%, #000 100%)",
               height: "1.7px",
               width: "0",
               position: "absolute",
@@ -74,6 +75,7 @@ export default function CardProjects({
           >
             Visualizar projeto
           </Link>
+          <ExternalLinkIcon marginLeft={"6px"} display={["block", "none", "none", "none", "none"]} />
         </Flex>
       </Box>
     </Flex>
