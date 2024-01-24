@@ -18,7 +18,7 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
-      width={["330px", "466px", "720px", "1668px", "555px"]}
+      width={["330px"]}
       padding={["0", "55px 0", "55px 0", "55px 0", "55px 0"]}
       justifyContent={["flex-start"]}
       flexDirection={"column"}
@@ -27,7 +27,6 @@ export default function CardProjects({
         <ImageComponent width="100%" src={src} alt={alt}  />
       </Box>
       <Flex
-        width={["auto", "auto", "490px", "490px", "auto"]}
         flexDirection={"column"}
         position={"relative"}
         justifyContent={"center"}
