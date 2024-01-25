@@ -10,7 +10,7 @@ export default function ProjectsImage({src, alt}: ImageContentProps) {
         <Box 
             display={"flex"} 
             justifyContent={"center"} 
-            maxWidth={["330px", "230px"]} 
+            maxWidth={["330px"]} 
         >
             <Box
               w={"100%"} 

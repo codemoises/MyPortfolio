@@ -10,12 +10,12 @@ export function About() {
         margin="0 auto"
         maxWidth="1200px"
         padding={[
-          "132px 0px 32px 0px",
-          "132px 8px 45px 8px",
-          "96px 24px 45px 24px",
-          "96px 16px 157px 16px",
-          "96px 16px 157px 16px",
-          "96px 16px 157px 16px",
+          "96px 0px 96px 0px",
+          "96px 8px 96px 8px",
+          "96px 24px 96px 24px",
+          "96px 16px 96px 16px",
+          "96px 16px 96px 16px",
+          "96px 16px 96px 16px",
       ]}>
         <Flex 
           alignItems="center" 

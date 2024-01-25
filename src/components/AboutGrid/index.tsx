@@ -43,6 +43,7 @@ export function AboutGrid() {
         </Box>
 
       <Box 
+        marginTop={"16px"}
         padding={[
           "32px 8px 0 8px", 
           "16px 0 0 0", 

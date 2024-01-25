@@ -1,51 +1,51 @@
 import { Box, Flex } from "@chakra-ui/react";
-import { motion } from "framer-motion"
 import { TextContent } from "../Common/DefaultText";
-import CardProjects from "../ProjectsCard";
+import CardProjects2 from "../ProjectsCard copy";
 
 export default function Projects() {
   return (
-    <Box id={"projects"} margin="0 auto"
-    maxWidth="1200px"
-    padding={[
-      "132px 0px 32px 0px",
-      "132px 8px 32px 8px",
-      "0 24px 157px 24px",
-      "0px 16px 157px 16px",
-      "0px 16px 157px 16px",
-      "0px 16px 157px 16px",
+    <Box 
+      id={"projects"}
+      maxWidth="1200px"
+      margin="0 auto"
+      padding={[
+      "96px 0px 96px 0px",
+      "96px 8px 96px 8px",
+      "96px 24px 96px 24px",
+      "96px 16px 96px 16px",
+      "96px 16px 96px 16px",
+      "96px 16px 96px 16px",
     ]}>
       <Box>
         <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
           <TextContent fontWeight={"400"} fontSize={["18px", "18px", "18px", "18px", "19px", "20px"]} text={"Projetos"} />
         </Box>
         <Flex
-          padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 25px 0 25px"]}
-          justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]}
+          padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "32px 25px 0 25px"]}
+          margin={["0","0 auto", "0", "0", "0"]}
           flexWrap={"wrap"}
-          gap={["110px", "0", "0", "0", "0"]}
+          justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]} gap={"64px"}
         >
-          <CardProjects
-            title={"BlueTalks"}
-            link={"https://github.com/SaulloPontes/Bluetalks"}
-            description={"Uma prancheta virtual que facilite a comunicação de pessoas com deficiência."}
-            alt={"Imagem do Bluetalks"}
-            src={"/assets/Image/bluetalks.svg"}          />
+      
+            <CardProjects2
+              title={"BlueTalks"}
+              link={"https://github.com/SaulloPontes/Bluetalks"}
+              description={"Uma prancheta virtual que facilite a comunicação de pessoas com deficiência."}
+              alt={"Imagem do Bluetalks"}
+              src={"/assets/Image/bluetalks.svg"}          />
+            <CardProjects2
+              title={"Calculadora"}
+              description={"Calculadora simples criada com HTML5, CSS3 e JavaScript."}
+              link={"https://calculadora-theta.vercel.app/"}
+              src={"/assets/Image/calculadora.svg"} alt={"Imagem da calculadora"}          />
 
-          <CardProjects
-            title={"Calculadora"}
-            description={"Calculadora simples criada com HTML5, CSS3 e JavaScript."}
-            link={"https://calculadora-theta.vercel.app/"}
-            src={"/assets/Image/calculadora.svg"} alt={"Imagem da calculadora"}          />
-
-          <CardProjects
-            title={"Landing Page"}
-            description={"Landing page para implementar habilidades em HTML5 e CSS3."}
-            link={"https://landing-page-gamma-five.vercel.app/"}
-            src={"/assets/Image/landingPage.svg"} alt={"Imagem da landing page"}          />
-
-          <CardProjects title={"Spotify Clone"} link={"https://spotify-clone-dev-web.vercel.app/"} description={"Clone do Spotify. Feito em colaboração com alguns amigos."} alt={"Imagem da logo do Spotify"} src={"/assets/Image/spotifyClone.svg"} />
-        </Flex>
+            <CardProjects2
+              title={"Landing Page"}
+              description={"Landing page para implementar habilidades em HTML5 e CSS3."}
+              link={"https://landing-page-gamma-five.vercel.app/"}
+              src={"/assets/Image/landingPage.svg"} alt={"Imagem da landing page"}          />
+            <CardProjects2 title={"Spotify Clone"} link={"https://spotify-clone-dev-web.vercel.app/"} description={"Clone do Spotify. Feito em colaboração com alguns amigos."} alt={"Imagem da logo do Spotify"} src={"/assets/Image/spotifyClone.svg"} />
+          </Flex>
       </Box>
     </Box>
   );
