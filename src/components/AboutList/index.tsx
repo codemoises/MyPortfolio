@@ -8,7 +8,7 @@ export default function AboutList() {
       opacity={"1"}
     >
       <Flex 
-        marginTop={"24px"} 
+        margin={"24px 0"} 
         gap={"12px"} 
         alignItems={"center"}
       >

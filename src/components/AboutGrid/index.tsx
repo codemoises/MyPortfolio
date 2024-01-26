@@ -2,55 +2,15 @@ import { Box } from "@chakra-ui/react";
 import { TextContent } from "../Common/DefaultText";
 import AboutList from "../AboutList";
 import { AboutText } from "../AboutText";
+import { SocialIcons } from "../Common/SocialIcons";
 
 export function AboutGrid() {
   return (
     <Box
-      width={[
-        "auto",
-        "auto",
-        "auto",
-        "auto",
-        "calc(44.66667% - 8px)"]}
-      margin={[
-        "4px",
-        "4px",
-        "4px",
-        "4px",
-        "4px"
-      ]}
+      maxWidth={["330px", "calc(90.66667% - 8px)", "calc(90.66667% - 8px)", "calc(90.66667% - 8px)", "calc(44.66667% - 8px)"]}
       float="left"
     >
-      <Box 
-        padding={[
-          "0 0 0 10px",
-          "0 0 0 10px",
-          0,
-          0, 
-          0
-          ]}>
-          <TextContent
-              fontWeight={"400"}
-              fontSize={[
-                "18px", 
-                "18px", 
-                "18px", 
-                "18px", 
-                "19px", 
-                "20px"
-                ]} 
-              text="Sobre mim" />
-        </Box>
-
-      <Box 
-        marginTop={"16px"}
-        padding={[
-          "32px 8px 0 8px", 
-          "16px 0 0 0", 
-          "16px 0 0 0", 
-          "16px 0 0 0", 
-          "16px 0 0 25px"
-          ]}>
+      <Box>
           <TextContent
             width="auto"
             color="#ffffff"
@@ -62,6 +22,7 @@ export function AboutGrid() {
           />
         <AboutText />
         <AboutList />
+        <SocialIcons />
       </Box>
     </Box>
   );
