@@ -12,7 +12,7 @@ export function AboutText() {
         color={"#7c7d80"}
         width={"auto"}
         lineHeight={"140%"}
-        text={"Eu sou um Desenvolvedor Front-End de Aquiraz, Ceará. Sou formado em uma universidade, mas também tenho aprendido por conta própria."}
+        text={"Eu sou um Desenvolvedor Front-End de Aquiraz, Ceará. Sou formado em uma universidade mas também tenho aprendido por conta própria a mais de 2 anos."}
       />
       <br />
       <TextContent
@@ -21,7 +21,7 @@ export function AboutText() {
         color={"#7c7d80"}
         width={"auto"}
         lineHeight={"140%"}
-        text={"Comecei criando telas com HTML5 e CSS3, com logicas em javascript, estudando atraves de cursos de graça no youtube"}
+        text={"Habilidade em programação, design de componentes e desenvolvimento de layouts responsivos. Sempre em busca de novas experiências e modelos de interfaces inovadores para aprimorar a interação do usuário."}
       />
     </Box>
   );
