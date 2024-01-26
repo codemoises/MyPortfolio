@@ -4,7 +4,7 @@ import { Logo } from "../Common/Logo";
 export function Header() {
   return (
     <Box
-      position={"absolute"}
+      position={["relative", "relative", "relative", "relative", "absolute"]}
       top={"0"}
       width={"100%"}
       zIndex={"1000"}

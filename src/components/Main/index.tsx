@@ -1,13 +1,12 @@
 import { Box } from "@chakra-ui/react";
 import { MainContent } from "../MainContent";
 import { Header } from "../Header";
-import { ImageComponent } from "../ImageComponent";
 
 export function Home() {
   return (
     <Box
       display={"flex"}
-      justifyContent={"center"}
+      justifyContent={["flex-start", "flex-start", "flex-start", "flex-start", "center"]}
       alignItems={"center"}
       flexDirection={"column"}
       margin={"0 auto"}

@@ -2,17 +2,19 @@ import { Box, Flex } from "@chakra-ui/react";
 import { TextContent, TextContentTwo } from "../Common/DefaultText";
 import { SocialIcons } from "../Common/SocialIcons";
 import { ImageComponent } from "../ImageComponent";
+import ButtonDefault from "../Common/ButtonDefault";
 
 export function MainContent() {
   return (
     <>
       <Box
         width={"100%"}
+        marginTop={["35px", "35px", "35px", "35px", "0"]}
         padding={"0 25px"}
         display={"flex"}
         justifyContent={["center", "center", "space-between"]}
-        alignItems={"center"}
-        flexDirection={"row"}
+        alignItems={["center", "center", "flex-start", "flex-start", "center"]}
+        flexDirection={["column", "column", "column", "column", "row"]}
       >
         <Box>
           <Flex flexDirection={"column"} alignItems={["center", "flex-start", "flex-start", "flex-start", "flex-start"]} className="css-typing">
@@ -50,18 +52,27 @@ export function MainContent() {
                 className={"blink"} 
                 fontSize={["20px", "30px", "30px", "30px", "30px"]}
                 text={"desenvolvedor Front-End."} 
-              />  
-          <SocialIcons />
+              />
+          </Flex>
+          <Flex justifyContent={["center", "flex-start", "flex-start", "flex-start", "flex-start"]}>
+            <Box className="initial" marginRight={"12px"}>
+              <ButtonDefault placeholder="Mais sobre mim" href="#about" bg />
+            </Box>
+            <Box className="initial2">
+                <ButtonDefault placeholder="Ver projetos" href="#projects" />
+            </Box>
           </Flex>
         </Box>
         <Box
+          className="animationimg"
           display={[
-            "none", 
-            "none", 
-            "none", 
-            "none", 
+            "block", 
+            "block", 
+            "block", 
+            "block", 
             "block"
           ]}
+          marginTop={["49px", "49px", "49px", "49px", "0"]}
         >
           <ImageComponent 
             src={"assets/Image/developer.svg"} 
