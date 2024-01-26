@@ -24,7 +24,7 @@ export default function Projects() {
           padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "32px 25px 0 25px"]}
           margin={["0","0 auto", "0", "0", "0"]}
           flexWrap={"wrap"}
-          justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]} gap={"64px"}
+          justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]} rowGap={"64px"}
         >
       
             <CardProjects2

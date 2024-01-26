@@ -9,21 +9,15 @@ export default function ContentSkills() {
       margin="0 auto"
       maxWidth="1200px"
       padding={[
-        "132px 0px 32px 8px",
-        "132px 8px 45px 8px",
+        "96px 8px 32px 8px",
+        "96px 8px 45px 8px",
         "96px 24px 45px 24px",
         "96px 24px 157px 24px",
         "96px 8px 157px 24px",
         "96px 16px 157px 16px"
       ]}
     >
-      <Box 
-        marginTop={[
-          "0", 
-          "0", 
-          "24px"
-          ]}
-        >
+      <Box>
         <Box 
           padding={[
             "0 0 0 10px", 
@@ -47,11 +41,10 @@ export default function ContentSkills() {
           />
         </Box>
         <Flex 
-          padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "16px 25px 0 25px"]}
-          marginTop={"16px"}
-          justifyContent={"space-between"}
+          padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "32px 25px 0 25px"]}
+          justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]}
           flexWrap={"wrap"}
-          rowGap={"70px"}
+          rowGap={"32px"}
         >
           <SkillsCard src="/assets/Image/javascript.svg" alt="imagem logo do javaScript" title="JavaScript" description="No JavaScript foi onde tudo começou, sendo esta a minha primeira linguagem de programação." />
           <SkillsCard src="/assets/Image/typescript.svg" alt="Imagem logo do typeScript" title="TypeScript" description="

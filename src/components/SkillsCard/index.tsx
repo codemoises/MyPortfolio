@@ -18,9 +18,11 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
-      width={["330px"]}
+      maxWidth={"330px"}
       justifyContent={["flex-start"]}
       flexDirection={"column"}
+      paddingTop={"32px"}
+      borderTop={"2px solid #202020"}
     >
       <Box width={"40px"}>
         <ImageComponent width="100%" src={src} alt={alt}  />
