@@ -1,31 +1,31 @@
 import { Button, Link } from "@chakra-ui/react";
-import { ArrowDownIcon } from "@chakra-ui/icons";
 
 interface ButtonProps {
   placeholder: string;
   href: string;
+  bg?: boolean;
 };
 
-export default function ButtonDefault({ placeholder, href }: ButtonProps) {
+export default function ButtonDefault({ placeholder, href, bg }: ButtonProps) {
   return (
     <Link 
       href={href} 
       _hover={{}}>
         <Button
-          width={"194px"}
-          height={"40px"}
+          width={"128px"}
           margin={"32px 0"}
-          rightIcon={<ArrowDownIcon />}
-          fontFamily={"sans-serif"}
-          fontSize={"15px"}
-          color={"#f4f4f4"}
+          fontFamily={"Saira, sans-serif"}
+          fontWeight={"400"}
+          fontSize={"12px"}
+          color={bg ? "#f4f4f4" : "#8446E7"}
           borderRadius={"0"}
           border={"1px solid rgba(103, 16, 242, 0.651)"}
-          bg={"linear-gradient(225deg, rgba(103, 16, 242, 0.322) 0%, rgba(103, 16, 242, 0.048) 100%)"}
-          _hover={{
+          bg={bg ? "linear-gradient(225deg, rgba(103, 16, 242, 0.322) 0%, rgba(103, 16, 242, 0.048) 100%)" : "none"}
+          _hover={
+            bg ? {
             bg: "linear-gradient(225deg, rgba(103, 16, 242, 0.575) 0%, rgba(103, 16, 242, 0.13) 100%)",
             border: "1px solid rgba(103, 16, 242, 0.651)",
-          }}
+          } : {border: "1px solid rgba(103, 16, 242, 0.651)", color: "#8e5ddd"}}
           _active={{}}
         >
           {placeholder}

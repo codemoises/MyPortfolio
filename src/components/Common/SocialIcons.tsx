@@ -4,10 +4,8 @@ import { ImageComponent } from "../ImageComponent";
 export function SocialIcons() {
   return (
     <>
-      <Box 
-        maxWidth={"fit-content"}
-        margin={"26px 0 0 0"} 
-        padding={"26px 0 0 0"}
+      <Box
+        marginTop={"70px"}
       >
         <Flex 
           className="social"
@@ -22,7 +20,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <ImageComponent src="/assets/Image/insta-icon.svg" alt="icone do instagram" height="25" />
+            <ImageComponent src="/assets/Image/insta-icon.svg" alt="icone do instagram" height="30" />
           </Link>
           <Link
             href={"https://www.linkedin.com/in/moises-cruz-04531521b/"}
@@ -32,7 +30,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <ImageComponent src="/assets/Image/linkedin-icon.svg" alt="icone do linkedin" height="25" />
+            <ImageComponent src="/assets/Image/linkedin-icon.svg" alt="icone do linkedin" height="30" />
             
           </Link>
           <Link
@@ -43,7 +41,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)" }}
           >
-            <ImageComponent src="/assets/Image/gmail-icon.svg" alt="icone do email" height="25" />
+            <ImageComponent src="/assets/Image/gmail-icon.svg" alt="icone do email" height="30" />
           </Link>
           <Link
             href={"http://www.github.com/mwises"}
@@ -53,7 +51,7 @@ export function SocialIcons() {
             transition={"all 0.5s ease-in-out"}
             _hover={{ transform: "translate(0, -10px)"}}
           >
-            <ImageComponent src="/assets/Image/github-icon.svg" alt="icone do github" height="25" />
+            <ImageComponent src="/assets/Image/github-icon.svg" alt="icone do github" height="30" />
           </Link>
         </Flex>
       </Box>
