@@ -9,12 +9,12 @@ export function MainContent() {
     <>
       <Box
         width={"100%"}
-        marginTop={["35px", "35px", "35px", "35px", "0"]}
+        marginTop={["12px", "35px", "35px", "35px", "0"]}
         padding={"0 25px"}
         display={"flex"}
         justifyContent={["center", "center", "space-between"]}
-        alignItems={["center", "center", "flex-start", "flex-start", "center"]}
-        flexDirection={["column", "column", "column", "column", "row"]}
+        alignItems={["center", "flex-start", "flex-start", "flex-start", "center"]}
+        flexDirection={["column", "column", "column", "row", "row"]}
       >
         <Box>
           <Flex flexDirection={"column"} alignItems={["center", "flex-start", "flex-start", "flex-start", "flex-start"]} className="css-typing">
@@ -66,13 +66,13 @@ export function MainContent() {
         <Box
           className="animationimg"
           display={[
-            "block", 
-            "block", 
-            "block", 
+            "none", 
+            "none", 
+            "none", 
             "block", 
             "block"
           ]}
-          marginTop={["49px", "49px", "49px", "49px", "0"]}
+          marginTop={["10px", "10px", "49px", "49px", "0"]}
         >
           <ImageComponent 
             src={"assets/Image/developer.svg"} 
