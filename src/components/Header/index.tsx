@@ -10,7 +10,7 @@ export function Header() {
       zIndex={"1000"}
     >
       <Box
-        margin={["36px auto", "10px auto"]}
+        margin={["0 auto", "10px auto"]}
         maxWidth={"1200px"}
         padding={["25px 10px"]}
         display={"flex"}
