@@ -18,7 +18,7 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
-      maxWidth={"330px"}
+      maxWidth={["auto", "auto", "330px", "330px", "330px"]}
       justifyContent={["flex-start"]}
       flexDirection={"column"}
       paddingTop={"32px"}

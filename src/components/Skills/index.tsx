@@ -9,12 +9,12 @@ export default function ContentSkills() {
       margin="0 auto"
       maxWidth="1200px"
       padding={[
-        "96px 8px 32px 8px",
-        "96px 8px 45px 8px",
-        "96px 24px 45px 24px",
-        "96px 24px 157px 24px",
-        "96px 8px 157px 24px",
-        "96px 16px 157px 16px"
+        "42px 8px 64px 8px",
+        "42px 25px 64px 25px",
+        "42px 25px 64px 25px",
+        "96px 16px 96px 16px",
+        "96px 16px 96px 16px",
+        "96px 16px 96px 16px",
       ]}
     >
       <Box>
@@ -46,7 +46,7 @@ export default function ContentSkills() {
           flexWrap={"wrap"}
           rowGap={"32px"}
         >
-          <SkillsCard src="/assets/Image/javascript.svg" alt="imagem logo do javaScript" title="JavaScript" description="No JavaScript foi onde tudo começou, sendo esta a minha primeira linguagem de programação." />
+          <SkillsCard src="/assets/Image/javascript.svg" alt="imagem logo do javaScript" title="JavaScript" description="No fascinante mundo da programação, minha jornada teve início no JavaScript, marcando-o como a primeira linguagem que explorei e aprendi." />
           <SkillsCard src="/assets/Image/typescript.svg" alt="Imagem logo do typeScript" title="TypeScript" description="
           Em paralelo com o React, tive a oportunidade de aprender e me familiarizar com o TypeScript, adicionando tipagem aos meus códigos" />
           <SkillsCard src="/assets/Image/react.svg" alt="imagem logo do reactJS" title="React Js" description="Em 2022, dei início à minha exploração no universo da componentização na programação, utilizando o React como minha primeira biblioteca JavaScript para esse propósito." />
