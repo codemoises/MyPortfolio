@@ -1,6 +1,5 @@
 import { Box, Flex } from "@chakra-ui/react";
 import { TextContent, TextContentTwo } from "../Common/DefaultText";
-import { SocialIcons } from "../Common/SocialIcons";
 import { ImageComponent } from "../ImageComponent";
 import ButtonDefault from "../Common/ButtonDefault";
 
@@ -9,11 +8,10 @@ export function MainContent() {
     <>
       <Box
         width={"100%"}
-        marginTop={["12px", "35px", "35px", "35px", "0"]}
-        padding={"0 25px"}
+        padding={["176px 16px 64px 16px", "242px 25px 64px 25px", "242px 25px 64px 25px", "0 25px", "0 25px"]}
         display={"flex"}
         justifyContent={["center", "center", "space-between"]}
-        alignItems={["center", "flex-start", "flex-start", "flex-start", "center"]}
+        alignItems={["center", "flex-start", "flex-start", "center", "center"]}
         flexDirection={["column", "column", "column", "row", "row"]}
       >
         <Box>
@@ -64,15 +62,8 @@ export function MainContent() {
           </Flex>
         </Box>
         <Box
-          className="animationimg"
-          display={[
-            "none", 
-            "none", 
-            "none", 
-            "block", 
-            "block"
-          ]}
-          marginTop={["10px", "10px", "49px", "49px", "0"]}
+          className={"animationimg"}
+          marginTop={["62px", "62px", "62px", "0", "0"]}
         >
           <ImageComponent 
             src={"assets/Image/developer.svg"} 

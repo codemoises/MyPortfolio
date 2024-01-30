@@ -6,12 +6,12 @@ export function Home() {
   return (
     <Box
       display={"flex"}
-      justifyContent={["flex-start", "flex-start", "flex-start", "flex-start", "center"]}
+      justifyContent={["flex-start", "flex-start", "flex-start", "center", "center"]}
       alignItems={"center"}
       flexDirection={"column"}
       margin={"0 auto"}
       maxWidth={"1200px"}
-      height={"100vh"}
+      height={["auto", "auto", "auto", "100vh", "100vh"]}
       id={"inicio"}
     >
       <Header />
