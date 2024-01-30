@@ -11,21 +11,14 @@ export function About() {
         margin="0 auto"
         maxWidth="1200px"
         padding={[
-          "96px 0px 96px 0px",
-          "96px 8px 96px 8px",
-          "96px 24px 96px 24px",
+          "42px 8px 64px 8px",
+          "42px 25px 64px 25px",
+          "42px 25px 64px 25px",
           "96px 16px 96px 16px",
           "96px 16px 96px 16px",
           "96px 16px 96px 16px",
       ]}>
-        <Box 
-        padding={[
-          "0 0 0 10px",
-          "0 0 0 10px",
-          0,
-          0, 
-          0
-          ]}>
+        <Box>
           <TextContent
               fontWeight={"400"}
               fontSize={[

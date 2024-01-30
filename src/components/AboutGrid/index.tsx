@@ -10,7 +10,6 @@ export function AboutGrid() {
       maxWidth={["330px", "calc(90.66667% - 8px)", "calc(90.66667% - 8px)", "calc(90.66667% - 8px)", "calc(44.66667% - 8px)"]}
       float="left"
     >
-      <Box>
           <TextContent
             width="auto"
             color="#ffffff"
@@ -23,7 +22,6 @@ export function AboutGrid() {
         <AboutText />
         <AboutList />
         <SocialIcons />
-      </Box>
     </Box>
   );
 };
