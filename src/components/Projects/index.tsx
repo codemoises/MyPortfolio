@@ -9,12 +9,12 @@ export default function Projects() {
       maxWidth="1200px"
       margin="0 auto"
       padding={[
-      "96px 0px 96px 0px",
-      "96px 8px 96px 8px",
-      "96px 24px 96px 24px",
-      "96px 16px 96px 16px",
-      "96px 16px 96px 16px",
-      "96px 16px 96px 16px",
+        "42px 8px 64px 8px",
+        "42px 25px 64px 25px",
+        "42px 25px 64px 25px",
+        "96px 16px 96px 16px",
+        "96px 16px 96px 16px",
+        "96px 16px 96px 16px",
     ]}>
       <Box>
         <Box padding={["0 0 0 10px", "0 0 0 10px", 0, 0, 0]}>
@@ -24,7 +24,7 @@ export default function Projects() {
           padding={["32px 8px 0 8px", "16px 0 0 0", "16px 0 0 0", "16px 0 0 0", "32px 25px 0 25px"]}
           margin={["0","0 auto", "0", "0", "0"]}
           flexWrap={"wrap"}
-          justifyContent={["center", "space-between", "space-between", "space-between", "space-between"]} rowGap={"64px"}
+          justifyContent={["center", "center", "space-between", "space-between", "space-between"]} rowGap={"64px"}
         >
       
             <CardProjects2
