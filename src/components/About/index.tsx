@@ -18,16 +18,16 @@ export function About() {
           "96px 16px 96px 16px",
           "96px 16px 96px 16px",
       ]}>
-        <Box>
+        <Box padding={["0 0 0 10px", 0, 0, 0, 0]}>
           <TextContent
-              fontWeight={"400"}
+              fontWeight={"300"}
               fontSize={[
                 "18px", 
                 "18px", 
                 "18px", 
                 "18px", 
-                "19px", 
-                "20px"
+                "24px", 
+                "24px"
                 ]} 
               text="Sobre mim" />
         </Box>
