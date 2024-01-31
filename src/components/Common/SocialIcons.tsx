@@ -44,7 +44,7 @@ export function SocialIcons() {
             <ImageComponent src="/assets/Image/gmail-icon.svg" alt="icone do email" height="30" />
           </Link>
           <Link
-            href={"http://www.github.com/mwises"}
+            href={"http://www.github.com/codemoises"}
             target={"_blank"}
             rel={"external"}
             margin={"0 8px"}
