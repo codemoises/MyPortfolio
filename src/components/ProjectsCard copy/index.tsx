@@ -23,7 +23,7 @@ export default function CardProjects2({
       background={"#151515"}
       border={"2px solid #262424"}
       borderRadius={"4px"}
-      width={["330px"]}
+      width={"330px"}
       padding={"16px 16px 24px 16px"}
       alignItems="center"
       justifyContent={["flex-start"]}
