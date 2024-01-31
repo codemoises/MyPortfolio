@@ -28,14 +28,14 @@ export default function ContentSkills() {
           ]}
         >
           <TextContent 
-            fontWeight={"400"}
+            fontWeight={"300"}
             fontSize={[
               "18px", 
               "18px", 
               "18px", 
               "18px", 
-              "19px", 
-              "20px"
+              "24px", 
+              "24px"
             ]} 
             text={"Conhecimentos"} 
           />
