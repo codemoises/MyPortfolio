@@ -3,6 +3,26 @@ html {
   box-sizing: border-box;
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #121212 #7528F0;
+}
+
+*::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7528F0;
+  border-radius: 20px;
+  border: 3px solid #121212;
+}
+
 .hoveredText:hover::after {
   width: 100%;
 }

@@ -35,13 +35,13 @@ export default function Projects() {
 
             <CardProjects2
               title={"Landing Page"}
-              description={"Landing page para implementar habilidades em HTML5 e CSS3."}
+              description={"Landing page para implementação de habilidades em HTML5 e CSS3."}
               link={"https://landing-page-gamma-five.vercel.app/"}
               src={"/assets/Image/landingPage.svg"} alt={"Imagem da landing page"}          />
             <CardProjects2 
               title={"Spotify Web"} 
               link={"https://spotify-clone-dev-web.vercel.app/"} 
-              description={"Clone do Spotify. Feito em colaboração com alguns amigos."} 
+              description={"Spotify Website. Uma versão feita com React.js."} 
               alt={"Imagem da logo do Spotify"} 
               src={"/assets/Image/spotifyClone.svg"} />
           </Flex>
