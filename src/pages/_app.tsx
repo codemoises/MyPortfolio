@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
-    <title>Moises Cruz - Portfólio</title>
+    <title>Moises Cruz - Portfolio</title>
    </Head>
    
     <ChakraProvider theme={theme}>
