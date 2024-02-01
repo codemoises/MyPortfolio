@@ -15,7 +15,7 @@ export function MainContent() {
         flexDirection={["column", "column", "column", "row", "row"]}
       >
         <Box>
-          <Flex flexDirection={"column"} alignItems={["center", "flex-start", "flex-start", "flex-start", "flex-start"]} className="css-typing">
+          <Flex flexDirection={"column"} alignItems={["center", "flex-start", "flex-start", "flex-start", "flex-start"]} className={"css-typing"}>
               <TextContent
                 maxWidth={"fit-content"}
                 textAlign={["center", "left", "left", "left", "left"]}
