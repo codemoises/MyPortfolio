@@ -261,3 +261,7 @@ html {
 .animation-skills img {
   transition: width 0.4s;
 }
+
+.project-hover:hover .project-animation {
+  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}

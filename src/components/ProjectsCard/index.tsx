@@ -20,6 +20,7 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
+      className="project-hover"
       background={"#151515"}
       border={"2px solid #262424"}
       borderRadius={"4px"}
