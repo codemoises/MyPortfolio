@@ -4,36 +4,15 @@ import { ImageComponent } from "../ImageComponent";
 export default function ImagesGrid() {
   return (
     <Box
-      margin={[
-        "4px", 
-        "4px", 
-        "4px", 
-        "4px", 
-        "4px"
-      ]}
-      padding={[
-        "4px", 
-        "8px", 
-        "16px", 
-        "16px 24px 0 0", 
-        "16px 24px 0 0"
-      ]}
+      margin={["4px", "4px", "4px", "4px", "4px"]}
+      padding={["4px", "8px", "16px", "16px 24px 0 0", "16px 24px 0 0"]}
       float="left"
-      width={[
-        "auto", 
-        "470px"
-      ]}
-      display={[
-        "none", 
-        "none", 
-        "none", 
-        "none", 
-        "block"
-      ]}
+      width={["auto", "470px"]}
+      display={["none", "none", "none", "none", "block"]}
     >
-      <Box 
-        position={"relative"} 
-        transform={"translate(0px, 0px)"} 
+      <Box
+        position={"relative"}
+        transform={"translate(0px, 0px)"}
         opacity={"1"}
       >
         <Box
@@ -43,7 +22,9 @@ export default function ImagesGrid() {
           width={"100%"}
           height={"35px"}
           zIndex={"200"}
-          background={"linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%)"}
+          background={
+            "linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%)"
+          }
           transform={"translate(0px, 0px)"}
           opacity={"1"}
         />
@@ -59,7 +40,9 @@ export default function ImagesGrid() {
           width={"100%"}
           height={"35px"}
           zIndex={"200"}
-          background={"linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%)"}
+          background={
+            "linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%), linear-gradient(180deg, #050607 0%, rgba(5, 6, 7, 0) 100%)"
+          }
           transform={"rotate(180deg)"}
           opacity="1"
         />

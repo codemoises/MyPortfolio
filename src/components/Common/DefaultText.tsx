@@ -1,7 +1,7 @@
 import { Text as ChakraText, TextProps } from "@chakra-ui/react";
 interface DefaultTextProps extends TextProps {
   text: string;
-};
+}
 
 export function Text({ text, ...rest }: DefaultTextProps) {
   return (
@@ -16,22 +16,22 @@ export function Text({ text, ...rest }: DefaultTextProps) {
       _hover={{
         color: "#fefbfb",
       }}
-      _after={{ 
-        content: "''", 
-        background: "linear-gradient(270deg, #6E3AFF 0%, #000 100%)", 
-        height: "1.7px", 
-        width: "0", 
-        position: "absolute", 
-        bottom: "-3px", 
-        left: "0", 
-        transition: "all 0.5s ease-in-out" 
+      _after={{
+        content: "''",
+        background: "linear-gradient(270deg, #6E3AFF 0%, #000 100%)",
+        height: "1.7px",
+        width: "0",
+        position: "absolute",
+        bottom: "-3px",
+        left: "0",
+        transition: "all 0.5s ease-in-out",
       }}
       {...rest}
     >
       {text}
     </ChakraText>
   );
-};
+}
 
 export function TextContent({ text, ...rest }: DefaultTextProps) {
   return (
@@ -44,19 +44,15 @@ export function TextContent({ text, ...rest }: DefaultTextProps) {
       {text}
     </ChakraText>
   );
-};
+}
 
 export function TextContentTwo({ text, ...rest }: DefaultTextProps) {
   return (
-    <ChakraText
-      color={"#ffffff"}
-      lineHeight={"120%"}
-      {...rest}
-    >
+    <ChakraText color={"#ffffff"} lineHeight={"120%"} {...rest}>
       {text}
     </ChakraText>
   );
-};
+}
 
 export function TextContentThree({ text, ...rest }: DefaultTextProps) {
   return (
@@ -69,4 +65,4 @@ export function TextContentThree({ text, ...rest }: DefaultTextProps) {
       {text}
     </ChakraText>
   );
-};
+}

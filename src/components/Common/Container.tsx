@@ -6,7 +6,7 @@ interface ContainerProps {
   alignItems?: string;
   children?: ReactNode;
   id: string;
-};
+}
 
 export function Container({
   display,
@@ -31,8 +31,8 @@ export function Container({
         "157px 16px 96px",
       ]}
       {...rest}
-      >
+    >
       {children}
     </Box>
   );
-};
+}

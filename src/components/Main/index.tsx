@@ -6,7 +6,13 @@ export function Home() {
   return (
     <Box
       display={"flex"}
-      justifyContent={["flex-start", "flex-start", "flex-start", "center", "center"]}
+      justifyContent={[
+        "flex-start",
+        "flex-start",
+        "flex-start",
+        "center",
+        "center",
+      ]}
       alignItems={"center"}
       flexDirection={"column"}
       margin={"0 auto"}
@@ -18,4 +24,4 @@ export function Home() {
       <MainContent />
     </Box>
   );
-};
+}

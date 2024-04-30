@@ -54,10 +54,7 @@ export default function CardProjects({
           padding={["6px 0"]}
           text={description}
         />
-        <Flex
-          padding={["4px 0 0 0"]}
-          alignItems={"center"}
-        >
+        <Flex padding={["4px 0 0 0"]} alignItems={"center"}>
           <Link
             className="hoveredText"
             href={link}
@@ -65,7 +62,7 @@ export default function CardProjects({
             rel="external"
             fontSize={["14px"]}
             transition={"all 0.5s ease-in-out"}
-            _hover={{ }}
+            _hover={{}}
             position={"relative"}
             _after={{
               content: "''",
@@ -85,4 +82,4 @@ export default function CardProjects({
       </Box>
     </Flex>
   );
-};
+}
