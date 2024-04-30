@@ -1,6 +1,5 @@
-import { Box, Flex, Link } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import { TextContentThree, TextContentTwo } from "../Common/DefaultText";
-import ProjectsImage from "../ProjectsImage";
 import { ImageComponent } from "../ImageComponent";
 
 interface CardProjectProps {
@@ -18,14 +17,15 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
+      className="article"
       maxWidth={["auto", "auto", "330px", "330px", "330px"]}
       justifyContent={["flex-start"]}
       flexDirection={"column"}
       paddingTop={"32px"}
       borderTop={"2px solid #202020"}
     >
-      <Box width={"40px"}>
-        <ImageComponent width="100%" src={src} alt={alt}  />
+      <Box height={"48px"} className="animation-skills" display={"flex"} alignItems={"center"}>
+        <ImageComponent width="36px" src={src} alt={alt} />
       </Box>
       <Flex
         flexDirection={"column"}
@@ -49,4 +49,4 @@ export default function CardProjects({
       </Flex>
     </Flex>
   );
-};
+}
