@@ -2,7 +2,7 @@ import { Box } from "@chakra-ui/react";
 import { TextContent } from "../Common/DefaultText";
 import AboutList from "../AboutList";
 import { AboutText } from "../AboutText";
-import { SocialIcons } from "../Common/SocialIcons";
+import { Social } from "../Social";
 
 export function AboutGrid() {
   return (
@@ -27,7 +27,7 @@ export function AboutGrid() {
       />
       <AboutText />
       <AboutList />
-      <SocialIcons />
+      <Social />
     </Box>
   );
 }
