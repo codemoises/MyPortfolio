@@ -135,6 +135,22 @@ html {
   }
 }
 
+.developer-move {
+  animation: devmov 2s ease infinite;
+}
+
+@keyframes devmov {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .animationlogo {
   animation: blink5 2s linear forwards;
 }
