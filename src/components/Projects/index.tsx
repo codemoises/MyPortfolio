@@ -50,7 +50,7 @@ export default function Projects() {
             "Uma prancheta virtual que facilite a comunicação de pessoas com deficiência."
           }
           alt={"Imagem do Bluetalks"}
-          src={"/assets/Image/bluetalks.svg"}
+          src={"/assets/images/bluetalks.svg"}
         />
 
         <CardProjects
@@ -59,7 +59,7 @@ export default function Projects() {
             "Landing page para implementação de habilidades em HTML5 e CSS3."
           }
           link={"https://landing-page-gamma-five.vercel.app/"}
-          src={"/assets/Image/landingPage.svg"}
+          src={"/assets/images/landingPage.svg"}
           alt={"Imagem da landing page"}
         />
         <CardProjects
@@ -67,7 +67,7 @@ export default function Projects() {
           link={"https://spotify-clone-dev-web.vercel.app/"}
           description={"Spotify Website. Uma versão feita com React.js."}
           alt={"Imagem da logo do Spotify"}
-          src={"/assets/Image/spotifyClone.svg"}
+          src={"/assets/images/spotifyClone.svg"}
         />
         <CardProjects
           title={"Tesla Bank"}
@@ -76,7 +76,7 @@ export default function Projects() {
             "Site institucional de banco digital, feito com React.js e Styled Components."
           }
           alt={"Imagem do resultado do projeto tesla bank"}
-          src={"/assets/Image/teslaBank.svg"}
+          src={"/assets/images/teslaBank.svg"}
         />
       </Flex>
     </Box>

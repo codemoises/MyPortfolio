@@ -7,10 +7,10 @@ export default function AboutList() {
       <Flex margin={"24px 0"} gap={"12px"} alignItems={"center"}>
         <Box width={"26px"} margin={"0 4px"}>
           <ImageComponent
-            src={"/assets/Image/v.svg"}
+            src={"/assets/icons/v.svg"}
             alt={"Imagem de um 'V'"}
             width={"100%"}
-            height={"15px"}
+            height={["15px"]}
           />
         </Box>
         <Box transition={".5s ease"} _hover={{ paddingLeft: "12px" }}>

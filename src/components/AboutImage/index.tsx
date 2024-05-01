@@ -29,7 +29,7 @@ export default function ImagesGrid() {
           opacity={"1"}
         />
         <ImageComponent
-          src={"/assets/Image/PhotoAbout.svg"}
+          src={"/assets/images/PhotoAbout.svg"}
           alt={"Foto exclusiva do Moises Cruz Braga"}
           width={"100%"}
         />

@@ -4,7 +4,7 @@ interface imageProps {
   src: string;
   alt: string;
   width?: string;
-  height?: string;
+  height?: string[];
 }
 
 export function ImageComponent({

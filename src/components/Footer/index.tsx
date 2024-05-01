@@ -21,7 +21,9 @@ export default function Footer() {
       >
         ©<Text>{year}</Text>
         <Link
-          href="http://github.com/mwises"
+          href="http://github.com/codemoises"
+          target="_blank"
+          rel="external"
           _hover={{ textDecoration: "none" }}
         >
           Moises Cruz

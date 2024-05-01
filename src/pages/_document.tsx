@@ -27,7 +27,7 @@ export default class MyDocument extends Document {
           />
           <link
             rel="shortcut icon"
-            href="/assets/Image/favicon.ico"
+            href="/assets/favicon/favicon.ico"
             type="image/x-icon"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />

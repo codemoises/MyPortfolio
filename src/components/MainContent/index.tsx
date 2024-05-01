@@ -2,8 +2,16 @@ import { Box, Flex } from "@chakra-ui/react";
 import { TextContent, TextContentTwo } from "../Common/DefaultText";
 import { ImageComponent } from "../ImageComponent";
 import ButtonDefault from "../Common/ButtonDefault";
+import { useEffect, useState } from "react";
 
 export function MainContent() {
+  useEffect(() => {
+    setTimeout(() => {
+      document.body
+        .querySelector(".animationimg")
+        ?.classList.add("developer-move");
+    }, 1500);
+  }, []);
   return (
     <>
       <Box
@@ -84,7 +92,7 @@ export function MainContent() {
           marginTop={["62px", "62px", "62px", "0", "0"]}
         >
           <ImageComponent
-            src={"assets/Image/developer.svg"}
+            src={"assets/images/developer.svg"}
             width={"356px"}
             alt={"Imagem developer"}
           />
