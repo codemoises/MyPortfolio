@@ -262,11 +262,11 @@ html {
   }
 }
 
-.social:hover a {
+.social:hover .social-content {
   opacity: 0.5;
 }
 
-.social a:hover {
+.social .social-content:hover {
   opacity: 1;
 }
 

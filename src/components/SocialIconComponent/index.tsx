@@ -17,6 +17,7 @@ export default function SocialIconComponent({
 }: SocialIconComponentProps) {
   return (
     <Flex
+      className={"social-content"}
       margin={"16px"}
       alignItems={"center"}
       transition={"all 0.5s ease-in-out"}
