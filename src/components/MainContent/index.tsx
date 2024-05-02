@@ -2,7 +2,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import { TextContent, TextContentTwo } from "../Common/DefaultText";
 import { ImageComponent } from "../ImageComponent";
 import ButtonDefault from "../Common/ButtonDefault";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export function MainContent() {
   useEffect(() => {
