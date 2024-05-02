@@ -63,6 +63,22 @@ export default function ContentSkills() {
             description="Em 2022, dei início à minha exploração no universo da componentização na programação, utilizando o React como minha primeira biblioteca JavaScript para esse propósito."
           />
           <SkillsCard
+            src="/assets/icons/next.svg"
+            alt="imagem logo do next"
+            title="Next Js"
+            description="
+          Após iniciar meu aprendizado em React, busquei aprimorar meus projetos adotando Next.js. Utilizei funções de pré-renderização para otimizar o desempenho das páginas e explorei funcionalidades avançadas de roteamento."
+          />
+          <SkillsCard
+            altWidth
+            altAnimation
+            src="/assets/icons/styled-components.svg"
+            alt="imagem logo do styled-components"
+            title="Styled-Components"
+            description="
+            Para espandir ainda mais minhas habilidades e possibilidades com estilização, conheci o Styled-components, uma biblioteca que permite escrever CSS em JS enquanto constrói componentes personalizados em React js."
+          />
+          <SkillsCard
             src="/assets/icons/html5.svg"
             alt="imagem logo do html5"
             title="HTML5"
@@ -74,13 +90,6 @@ export default function ContentSkills() {
             title="CSS3"
             description="
           Após adquirir conhecimentos em HTML5, o CSS3 desempenhou um papel crucial ao possibilitar pequenas estilizações, tornando-se o catalisador do meu interesse pelo design web."
-          />
-          <SkillsCard
-            src="/assets/icons/next.svg"
-            alt="imagem logo do next"
-            title="Next Js"
-            description="
-          Após iniciar meu aprendizado em React, busquei aprimorar meus projetos adotando Next.js. Utilizei funções de pré-renderização para otimizar o desempenho das páginas e explorei funcionalidades avançadas de roteamento."
           />
         </Flex>
       </Box>
