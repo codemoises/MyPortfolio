@@ -18,7 +18,7 @@ export default function ButtonDefault({ placeholder, href, bg }: ButtonProps) {
         color={bg ? "#f4f4f4" : "#8446E7"}
         borderRadius={"0"}
         border={"1px solid rgba(103, 16, 242, 0.651)"}
-        bg={
+        bg={  
           bg
             ? "linear-gradient(225deg, rgba(103, 16, 242, 0.322) 0%, rgba(103, 16, 242, 0.048) 100%)"
             : "none"
@@ -30,9 +30,9 @@ export default function ButtonDefault({ placeholder, href, bg }: ButtonProps) {
                 border: "1px solid rgba(103, 16, 242, 0.651)",
               }
             : {
-                bg: "linear-gradient(225deg, rgb(103 16 242 / 15%) 0%, rgb(103 16 242 / 10%) 100%)",
+                bg: "linear-gradient(225deg, rgba(103, 16, 242, 0.322) 0%, rgba(103, 16, 242, 0.048) 100%)",
                 border: "1px solid rgba(103, 16, 242, 0.651)",
-                color: "#8e5ddd",
+                color: "#f4f4f4",
               }
         }
         _active={{}}
