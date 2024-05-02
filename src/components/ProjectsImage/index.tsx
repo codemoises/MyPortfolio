@@ -13,7 +13,7 @@ export default function ProjectsImage({ src, alt }: ImageContentProps) {
           className="project-animation"
           transition={"all 500ms ease-in-out"}
         >
-          <ImageComponent width="100%" height="100%" src={src} alt={alt} />
+          <ImageComponent width="100%" height={["100%"]} src={src} alt={alt} />
         </Box>
       </Box>
     </Box>
