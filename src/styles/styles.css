@@ -270,11 +270,19 @@ html {
   opacity: 1;
 }
 
-.article:hover img {
+.article:hover .animation-skills img {
   width: 42px;
 }
 
 .animation-skills img {
+  transition: width 0.4s;
+}
+
+.article:hover .alt-animation-skills img {
+  width: 66px;
+}
+
+.alt-animation-skills img {
   transition: width 0.4s;
 }
 
