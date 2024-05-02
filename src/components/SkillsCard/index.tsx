@@ -5,6 +5,9 @@ import { ImageComponent } from "../ImageComponent";
 interface CardProjectProps {
   src: string;
   alt: string;
+  border?: boolean;
+  altAnimation?: boolean;
+  altWidth?: boolean;
   title: string;
   description: string;
 }
@@ -14,6 +17,8 @@ export default function CardProjects({
   description,
   src,
   alt,
+  altAnimation = false,
+  altWidth = false,
 }: CardProjectProps) {
   return (
     <Flex
@@ -22,10 +27,18 @@ export default function CardProjects({
       justifyContent={["flex-start"]}
       flexDirection={"column"}
       paddingTop={"32px"}
-      borderTop={"2px solid #202020"}
     >
-      <Box height={"48px"} className="animation-skills" display={"flex"} alignItems={"center"}>
-        <ImageComponent width="36px" src={src} alt={alt} />
+      <Box
+        height={"48px"}
+        className={altAnimation ? "alt-animation-skills" : "animation-skills"}
+        display={"flex"}
+        alignItems={"center"}
+      >
+        <ImageComponent
+          width={altWidth ? "60px" : "36px"}
+          src={src}
+          alt={alt}
+        />
       </Box>
       <Flex
         flexDirection={"column"}
