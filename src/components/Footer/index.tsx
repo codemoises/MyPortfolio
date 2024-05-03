@@ -21,7 +21,7 @@ export default function Footer() {
       >
         ©<Text>{year}</Text>
         <Link
-          href="http://github.com/codemoises"
+          href="https://bio-tau.vercel.app/"
           target="_blank"
           rel="external"
           _hover={{ textDecoration: "none" }}
