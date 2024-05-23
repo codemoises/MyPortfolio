@@ -20,7 +20,7 @@ export default function CardProjects({
 }: CardProjectProps) {
   return (
     <Flex
-      className="project-hover"
+      className="project-hover hoveredText"
       background={"#151515"}
       border={"2px solid #262424"}
       borderRadius={"4px"}
@@ -57,7 +57,6 @@ export default function CardProjects({
         />
         <Flex padding={["4px 0 0 0"]} alignItems={"center"}>
           <Link
-            className="hoveredText"
             href={link}
             target="_blank"
             rel="external"
