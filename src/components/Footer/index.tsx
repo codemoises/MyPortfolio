@@ -13,21 +13,13 @@ export default function Footer() {
       textAlign={"center"}
     >
       <Box
-        fontSize={"12px"}
+        fontSize={"14px"}
         fontFamily={"Open Sans, sans-serif"}
         color={"#c9c9c9"}
         display={"flex"}
         gap={"3px"}
       >
-        ©<Text>{year}</Text>
-        <Link
-          href="https://bio-tau.vercel.app/"
-          target="_blank"
-          rel="external"
-          _hover={{ textDecoration: "none" }}
-        >
-          Moises Cruz
-        </Link>
+        Copyright © {year} Moises Cruz. Todos os direitos reservados.
       </Box>
     </Flex>
   );
