@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import { MainContent } from "../MainContent";
+import { HomeContent } from "../HomeContent";
 import { Header } from "../Header";
 
 export function Home() {
@@ -21,7 +21,7 @@ export function Home() {
       id={"inicio"}
     >
       <Header />
-      <MainContent />
+      <HomeContent />
     </Box>
   );
 }

@@ -1,10 +1,9 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
 import { TextContent, TextContentTwo } from "../Common/DefaultText";
-import { ImageComponent } from "../ImageComponent";
 import ButtonDefault from "../Common/ButtonDefault";
 import { useEffect } from "react";
 
-export function MainContent() {
+export function HomeContent() {
   useEffect(() => {
     setTimeout(() => {
       document.body
@@ -43,7 +42,7 @@ export function MainContent() {
             maxWidth={"fit-content"}
             textAlign={["center", "left", "left", "left", "left"]}
             color={"#c9c9c9"}
-            fontSize={["20px", "30px", "30px", "30px", "30px"]}
+            fontSize={["24px", "30px", "30px", "30px", "30px"]}
             text={"Olá, eu sou o"}
           />
           <TextContentTwo
@@ -51,7 +50,7 @@ export function MainContent() {
             fontFamily={"'Inter', sans-serif"}
             fontWeight={"800"}
             textAlign={["center", "left", "left", "left", "left"]}
-            fontSize={["35px", "68px", "82px", "82px", "82px"]}
+            fontSize={["40px", "68px", "82px", "82px", "82px"]}
             margin={[
               "16px 0 16px 0",
               "16px 0 16px 0",
@@ -65,11 +64,12 @@ export function MainContent() {
             textAlign={["center", "left", "left", "left", "left"]}
             color={"#c9c9c9"}
             className={"blink"}
-            fontSize={["20px", "30px", "30px", "30px", "30px"]}
+            fontSize={["24px", "30px", "30px", "30px", "30px"]}
             text={"desenvolvedor Front-End."}
           />
         </Flex>
         <Flex
+          margin={"32px 0"}
           justifyContent={[
             "center",
             "flex-start",
@@ -77,8 +77,10 @@ export function MainContent() {
             "flex-start",
             "flex-start",
           ]}
+          flexDirection={["column", "row", "row", "row", "row"]}
+          gap={"24px"}
         >
-          <Box className="initial" marginRight={"12px"}>
+          <Box className="initial">
             <ButtonDefault placeholder="Mais sobre mim" href="#about" bg />
           </Box>
           <Box className="initial2">
@@ -87,10 +89,10 @@ export function MainContent() {
         </Flex>
       </Box>
       <Box
-        className={"animationimg"}
         marginTop={["62px", "62px", "62px", "0", "0"]}
       >
-        <ImageComponent
+        <Image
+          className={"animationimg"}
           src={"assets/images/developer.svg"}
           width={"356px"}
           alt={"Imagem developer"}
