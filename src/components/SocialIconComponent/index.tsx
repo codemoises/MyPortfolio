@@ -23,9 +23,9 @@ export default function SocialIconComponent({
       transition={"all 0.5s ease-in-out"}
       _hover={{ transform: "translate(0, -10px)" }}
     >
-      <ImageComponent src={src} alt={alt} height={["32px", "28px", "32px", "32px", "28px"]} />
+      <ImageComponent src={src} alt={alt} height={["32px", "32px", "32px", "32px", "28px"]} />
       <Link
-        fontSize={["18px", "16px", "18px", "18px", "16px"]}
+        fontSize={["18px", "18px", "18px", "18px", "16px"]}
         href={href}
         target={"_blank"}
         rel={"external"}
@@ -38,7 +38,7 @@ export default function SocialIconComponent({
       <ImageComponent
         src={"/assets/icons/arrow.svg"}
         alt={"Ícone de arrow"}
-        height={["30px", "26px", "30px", "30px", "26px"]}
+        height={["30px", "30px", "30px", "30px", "26px"]}
       />
     </Flex>
   );

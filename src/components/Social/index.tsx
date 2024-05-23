@@ -8,7 +8,7 @@ export function Social() {
         className={"social"}
         width={["auto", "auto", "550px", "550px", "auto"]}
         justifyContent={"space-between"}
-        flexDirection={["column", "row", "row", "row", "row"]}
+        flexDirection={["column", "column", "row", "row", "row"]}
         transition={"opacity 0.2s ease-in 0s"}
       >
         <SocialIconComponent
