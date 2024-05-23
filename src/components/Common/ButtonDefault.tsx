@@ -10,11 +10,12 @@ export default function ButtonDefault({ placeholder, href, bg }: ButtonProps) {
   return (
     <Link href={href} _hover={{}}>
       <Button
-        width={"128px"}
-        margin={"32px 0"}
+        width={["100%", "auto", "auto", "auto", "auto"]}
+        padding={"12px 32px"}
+        height={"52px"}
         fontFamily={"Saira, sans-serif"}
-        fontWeight={"400"}
-        fontSize={"12px"}
+        fontWeight={"500"}
+        fontSize={"18px"}
         color={bg ? "#f4f4f4" : "#8446E7"}
         borderRadius={"0"}
         border={"1px solid rgba(103, 16, 242, 0.651)"}
