@@ -23,7 +23,7 @@ html {
   border: 3px solid #121212;
 }
 
-.hoveredText:hover::after {
+.hoveredText:hover a::after {
   width: 100%;
 }
 
@@ -287,5 +287,5 @@ html {
 }
 
 .project-hover:hover .project-animation {
-  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+  transform: scale(1.2, 1.2);
 }
