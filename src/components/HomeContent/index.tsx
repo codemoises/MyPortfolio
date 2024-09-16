@@ -69,7 +69,7 @@ export function HomeContent() {
           />
         </Flex>
         <Flex
-          margin={"32px 0"}
+          margin={"48px 0"}
           justifyContent={[
             "center",
             "flex-start",
@@ -88,9 +88,7 @@ export function HomeContent() {
           </Box>
         </Flex>
       </Box>
-      <Box
-        marginTop={["62px", "62px", "62px", "0", "0"]}
-      >
+      <Box marginTop={["62px", "62px", "62px", "0", "0"]}>
         <Image
           className={"animationimg"}
           src={"assets/images/developer.svg"}
