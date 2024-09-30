@@ -1,4 +1,4 @@
-import { Box, Link, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 
 
 export default function Footer() {
@@ -16,8 +16,6 @@ export default function Footer() {
         fontSize={"14px"}
         fontFamily={"Open Sans, sans-serif"}
         color={"#c9c9c9"}
-        display={"flex"}
-        gap={"3px"}
       >
         Copyright © {year} Moises Cruz. Todos os direitos reservados.
       </Box>
