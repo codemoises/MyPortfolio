@@ -11,7 +11,7 @@ export function AboutText() {
         width={"auto"}
         lineHeight={"140%"}
         text={
-          "Eu sou um Desenvolvedor Front-End de Aquiraz, Ceará. Sou formado em uma universidade mas também tenho aprendido por conta própria há mais de 2 anos."
+          "Eu sou um Desenvolvedor Front-End de Aquiraz, Ceará. Sou formado em uma universidade mas também tenho aprendido por conta própria há mais de 3 anos."
         }
       />
       <br />
