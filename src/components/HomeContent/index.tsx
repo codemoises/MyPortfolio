@@ -78,9 +78,17 @@ export function HomeContent() {
             "flex-start",
           ]}
           flexDirection={["column", "row", "row", "row", "row"]}
-          gap={"24px"}
         >
-          <Box className="initial">
+          <Box
+            m={[
+              "0 0 2.5rem 0",
+              "0 2rem 0 0",
+              "0 2rem 0 0",
+              "0 2rem 0 0",
+              "0 2rem 0 0",
+            ]}
+            className="initial"
+          >
             <ButtonDefault placeholder="Mais sobre mim" href="#about" bg />
           </Box>
           <Box className="initial2">
