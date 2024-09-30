@@ -22,7 +22,7 @@ export function AboutText() {
         width={"auto"}
         lineHeight={"140%"}
         text={
-          "Habilidade em programação, design de componentes e desenvolvimento de layouts responsivos. Sempre em busca de novas experiências e modelos de interfaces inovadores para aprimorar a interação do usuário."
+          "Habilidade em programação, design de componentes e desenvolvimento de layouts responsivos. Sempre em busca de novas experiências e modelos de interfaces inovadores, pensando sempre na diversidade de interação do usuário."
         }
       />
     </Box>
