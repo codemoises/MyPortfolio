@@ -12,7 +12,7 @@ export function Social() {
         transition={"opacity 0.2s ease-in 0s"}
       >
         <SocialIconComponent
-          href={"https://www.linkedin.com/in/moises-cruz-04531521b/"}
+          href={"https://www.linkedin.com/in/moises-braga-5943a1352/"}
           src={"/assets/icons/linkedin.svg"}
           alt={"Ícone do linkedin"}
           social={"Linkedin"}

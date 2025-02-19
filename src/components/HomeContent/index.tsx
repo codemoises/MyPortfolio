@@ -4,13 +4,6 @@ import ButtonDefault from "../Common/ButtonDefault";
 import { useEffect } from "react";
 
 export function HomeContent() {
-  useEffect(() => {
-    setTimeout(() => {
-      document.body
-        .querySelector(".animationimg")
-        ?.classList.add("developer-move");
-    }, 1500);
-  }, []);
   return (
     <Box
       width={"100%"}
@@ -36,7 +29,6 @@ export function HomeContent() {
             "flex-start",
             "flex-start",
           ]}
-          className={"css-typing"}
         >
           <TextContent
             maxWidth={"fit-content"}
@@ -61,11 +53,11 @@ export function HomeContent() {
             text={"Moises Cruz"}
           />
           <TextContent
+            className="blink"
             textAlign={["center", "left", "left", "left", "left"]}
             color={"#c9c9c9"}
-            className={"blink"}
             fontSize={["24px", "30px", "30px", "30px", "30px"]}
-            text={"desenvolvedor Front-End."}
+            text={"desenvolvedor Full-Stack."}
           />
         </Flex>
         <Flex
@@ -87,18 +79,16 @@ export function HomeContent() {
               "0 2rem 0 0",
               "0 2rem 0 0",
             ]}
-            className="initial"
           >
             <ButtonDefault placeholder="Mais sobre mim" href="#about" bg />
           </Box>
-          <Box className="initial2">
+          <Box>
             <ButtonDefault placeholder="Ver projetos" href="#projects" />
           </Box>
         </Flex>
       </Box>
       <Box marginTop={["62px", "62px", "62px", "0", "0"]}>
         <Image
-          className={"animationimg"}
           src={"assets/images/developer.svg"}
           width={"356px"}
           alt={"Imagem developer"}

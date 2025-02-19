@@ -11,7 +11,7 @@ export function AboutText() {
         width={"auto"}
         lineHeight={"140%"}
         text={
-          "Eu sou um Desenvolvedor Front-End de Aquiraz, Ceará. Sou formado em uma universidade mas também tenho aprendido por conta própria há mais de 3 anos."
+          "Eu sou um Desenvolvedor Full-Stack de Aquiraz, Ceará. Sou formado em uma universidade mas também tenho aprendido por conta própria há mais de 3 anos."
         }
       />
       <br />
@@ -22,7 +22,7 @@ export function AboutText() {
         width={"auto"}
         lineHeight={"140%"}
         text={
-          "Habilidade em programação, design de componentes e desenvolvimento de layouts responsivos. Sempre em busca de novas experiências e modelos de interfaces inovadores, pensando sempre na diversidade de interação do usuário."
+          "Habilidade em programação, REST APIs, Autenticação e autorização (JWT, OAuth2), design de componentes e desenvolvimento de layouts responsivos. Sempre em busca de novas experiências e modelos de interfaces inovadores, pensando sempre na diversidade de interação do usuário."
         }
       />
     </Box>

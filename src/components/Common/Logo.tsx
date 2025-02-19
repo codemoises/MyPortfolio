@@ -3,7 +3,7 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/react";
 
 export function Logo() {
   return (
-    <Breadcrumb className="animationlogo">
+    <Breadcrumb>
       <BreadcrumbItem>
         <BreadcrumbLink href="#">
           <ImageComponent
