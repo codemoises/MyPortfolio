@@ -8,13 +8,9 @@ interface CardProjectProps {
   border?: boolean;
   altAnimation?: boolean;
   altWidth?: boolean;
-  title: string;
-  description: string;
 }
 
 export default function CardProjects({
-  title,
-  description,
   src,
   alt,
   altAnimation = false,
@@ -24,9 +20,12 @@ export default function CardProjects({
     <Flex
       className="article"
       maxWidth={["auto", "auto", "330px", "330px", "330px"]}
-      justifyContent={["flex-start"]}
-      flexDirection={"column"}
-      paddingTop={"32px"}
+      justifyContent={"center"}
+      flexDirection={"row"}
+      alignItems={"center"}
+      height={["88px"]}
+      borderWidth={"0.5px"}
+      borderColor={"#2a1152"}
     >
       <Box
         height={"48px"}
@@ -40,26 +39,6 @@ export default function CardProjects({
           alt={alt}
         />
       </Box>
-      <Flex
-        flexDirection={"column"}
-        position={"relative"}
-        justifyContent={"center"}
-      >
-        <TextContentThree
-          fontFamily={"Saira, sans-serif"}
-          fontWeight={"400"}
-          fontSize={["22px", "22px", "25px", "25px"]}
-          padding={"16px 0"}
-          text={title}
-        />
-
-        <TextContentTwo
-          color={"#a2a3a5"}
-          fontSize={["14px", "14px", "14px", "15px", "16px"]}
-          lineHeight={"140%"}
-          text={description}
-        />
-      </Flex>
     </Flex>
   );
 }
